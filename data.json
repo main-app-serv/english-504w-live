@@ -1,0 +1,3532 @@
+{
+  "word_details": [
+    {
+      "id": 1,
+      "word": "abandon",
+      "persian_translate": "ترک کردن",
+      "sentence": "He had to abandon his car in the snow.",
+      "persian_sentence_translate": "او مجبور شد ماشینش را در برف ترک کند."
+    },
+    {
+      "id": 2,
+      "word": "keen",
+      "persian_translate": "مشتاق",
+      "sentence": "He is a keen supporter of the team.",
+      "persian_sentence_translate": "او از طرفداران پروپاقرص تیم است."
+    },
+    {
+      "id": 3,
+      "word": "jealous",
+      "persian_translate": "حسود",
+      "sentence": "She was jealous of her friend's success.",
+      "persian_sentence_translate": "او به موفقیت دوستش حسادت می کرد."
+    },
+    {
+      "id": 4,
+      "word": "tact",
+      "persian_translate": "تدبیر",
+      "sentence": "He showed great tact in dealing with the angry customer.",
+      "persian_sentence_translate": "او در برخورد با مشتری عصبانی تدبیر زیادی به خرج داد."
+    },
+    {
+      "id": 5,
+      "word": "oath",
+      "persian_translate": "سوگند",
+      "sentence": "He took an oath to tell the truth in court.",
+      "persian_sentence_translate": "او سوگند یاد کرد که در دادگاه حقیقت را بگوید."
+    },
+    {
+      "id": 6,
+      "word": "vacant",
+      "persian_translate": "خالی",
+      "sentence": "The seat next to him was vacant.",
+      "persian_sentence_translate": "صندلی کنار او خالی بود."
+    },
+    {
+      "id": 7,
+      "word": "hardship",
+      "persian_translate": "سختی",
+      "sentence": "The family suffered many hardships during the war.",
+      "persian_sentence_translate": "خانواده در طول جنگ سختی های زیادی را متحمل شدند."
+    },
+    {
+      "id": 8,
+      "word": "gallant",
+      "persian_translate": "شجاع",
+      "sentence": "The gallant soldier saved the child from the fire.",
+      "persian_sentence_translate": "سرباز شجاع کودک را از آتش نجات داد."
+    },
+    {
+      "id": 9,
+      "word": "data",
+      "persian_translate": "داده ها",
+      "sentence": "The company collects data about its customers.",
+      "persian_sentence_translate": "این شرکت اطلاعات مربوط به مشتریان خود را جمع آوری می کند."
+    },
+    {
+      "id": 10,
+      "word": "unaccustomed",
+      "persian_translate": "عادت نداشتن",
+      "sentence": "She was unaccustomed to the cold weather.",
+      "persian_sentence_translate": "او به هوای سرد عادت نداشت."
+    },
+    {
+      "id": 11,
+      "word": "bachelor",
+      "persian_translate": "مرد مجرد",
+      "sentence": "He remained a bachelor all his life.",
+      "persian_sentence_translate": "او تمام عمرش را مجرد ماند."
+    },
+    {
+      "id": 12,
+      "word": "qualify",
+      "persian_translate": "صلاحیت داشتن",
+      "sentence": "She is not qualified for the job.",
+      "persian_sentence_translate": "او صلاحیت این کار را ندارد."
+    },
+    {
+      "id": 13,
+      "word": "corpse",
+      "persian_translate": "جسد",
+      "sentence": "The corpse was found in the river.",
+      "persian_sentence_translate": "جسد در رودخانه پیدا شد."
+    },
+    {
+      "id": 14,
+      "word": "conceal",
+      "persian_translate": "پنهان کردن",
+      "sentence": "He tried to conceal the truth from his family.",
+      "persian_sentence_translate": "او سعی کرد حقیقت را از خانواده اش پنهان کند."
+    },
+    {
+      "id": 15,
+      "word": "dismal",
+      "persian_translate": "غم انگیز",
+      "sentence": "The weather was dismal and gray.",
+      "persian_sentence_translate": "هوا غم انگیز و خاکستری بود."
+    },
+    {
+      "id": 16,
+      "word": "frigid",
+      "persian_translate": "بسیار سرد",
+      "sentence": "The frigid water made it difficult to swim.",
+      "persian_sentence_translate": "آب بسیار سرد شنا را دشوار می کرد."
+    },
+    {
+      "id": 17,
+      "word": "inhabit",
+      "persian_translate": "ساکن بودن",
+      "sentence": "Many different species inhabit this forest.",
+      "persian_sentence_translate": "گونه های مختلفی در این جنگل ساکن هستند."
+    },
+    {
+      "id": 18,
+      "word": "numb",
+      "persian_translate": "بی حس",
+      "sentence": "My fingers were numb with cold.",
+      "persian_sentence_translate": "انگشتانم از سرما بی حس شده بود."
+    },
+    {
+      "id": 19,
+      "word": "peril",
+      "persian_translate": "خطر",
+      "sentence": "The country's economy is in peril.",
+      "persian_sentence_translate": "اقتصاد کشور در خطر است."
+    },
+    {
+      "id": 20,
+      "word": "recline",
+      "persian_translate": "لم دادن",
+      "sentence": "She reclined on the sofa to watch TV.",
+      "persian_sentence_translate": "او برای تماشای تلویزیون روی مبل لم داد."
+    },
+    {
+      "id": 21,
+      "word": "shriek",
+      "persian_translate": "جیغ زدن",
+      "sentence": "She shrieked when she saw the spider.",
+      "persian_sentence_translate": "او با دیدن عنکبوت جیغ زد."
+    },
+    {
+      "id": 22,
+      "word": "sinister",
+      "persian_translate": "شوم",
+      "sentence": "There was a sinister look in his eyes.",
+      "persian_sentence_translate": "نگاه شومی در چشمانش بود."
+    },
+    {
+      "id": 23,
+      "word": "tempt",
+      "persian_translate": "وسوسه کردن",
+      "sentence": "The delicious cake tempted me to break my diet.",
+      "persian_sentence_translate": "کیک خوشمزه مرا وسوسه کرد که رژیمم را بشکنم."
+    },
+    {
+      "id": 24,
+      "word": "wager",
+      "persian_translate": "شرط بندی",
+      "sentence": "He made a wager with his friend on the outcome of the game.",
+      "persian_sentence_translate": "او با دوستش سر نتیجه بازی شرط بندی کرد."
+    },
+    {
+      "id": 25,
+      "word": "typical",
+      "persian_translate": "معمولی",
+      "sentence": "It was a typical summer day, hot and sunny.",
+      "persian_sentence_translate": "یک روز معمولی تابستانی بود، گرم و آفتابی."
+    },
+    {
+      "id": 26,
+      "word": "minimum",
+      "persian_translate": "حداقل",
+      "sentence": "The minimum age for driving a car is 18.",
+      "persian_sentence_translate": "حداقل سن برای رانندگی با ماشین ۱۸ سال است."
+    },
+    {
+      "id": 27,
+      "word": "scarce",
+      "persian_translate": "کمیاب",
+      "sentence": "Food was scarce during the war.",
+      "persian_sentence_translate": "در طول جنگ غذا کمیاب بود."
+    },
+    {
+      "id": 28,
+      "word": "annual",
+      "persian_translate": "سالیانه",
+      "sentence": "The company has its annual meeting in June.",
+      "persian_sentence_translate": "این شرکت جلسه سالانه خود را در ماه ژوئن برگزار می کند."
+    },
+    {
+      "id": 29,
+      "word": "persuade",
+      "persian_translate": "متقاعد کردن",
+      "sentence": "I managed to persuade him to come with us.",
+      "persian_sentence_translate": "من موفق شدم او را متقاعد کنم که با ما بیاید."
+    },
+    {
+      "id": 30,
+      "word": "essential",
+      "persian_translate": "ضروری",
+      "sentence": "Water is essential for life.",
+      "persian_sentence_translate": "آب برای زندگی ضروری است."
+    },
+    {
+      "id": 31,
+      "word": "blend",
+      "persian_translate": "مخلوط کردن",
+      "sentence": "Blend the ingredients until they are smooth.",
+      "persian_sentence_translate": "مواد را با هم مخلوط کنید تا یکدست شوند."
+    },
+    {
+      "id": 32,
+      "word": "visible",
+      "persian_translate": "قابل مشاهده",
+      "sentence": "The mountains were visible in the distance.",
+      "persian_sentence_translate": "کوه ها از دور قابل مشاهده بودند."
+    },
+    {
+      "id": 33,
+      "word": "expensive",
+      "persian_translate": "گران",
+      "sentence": "That's a very expensive car.",
+      "persian_sentence_translate": "آن یک ماشین بسیار گران است."
+    },
+    {
+      "id": 34,
+      "word": "talent",
+      "persian_translate": "استعداد",
+      "sentence": "She has a talent for music.",
+      "persian_sentence_translate": "او در موسیقی استعداد دارد."
+    },
+    {
+      "id": 35,
+      "word": "devise",
+      "persian_translate": "ابداع کردن",
+      "sentence": "They devised a plan to escape.",
+      "persian_sentence_translate": "آنها نقشه ای برای فرار ابداع کردند."
+    },
+    {
+      "id": 36,
+      "word": "wholesale",
+      "persian_translate": "عمده فروشی",
+      "sentence": "They buy their goods wholesale and sell them retail.",
+      "persian_sentence_translate": "آنها کالاهای خود را به صورت عمده می خرند و به صورت خرده می فروشند."
+    },
+    {
+      "id": 37,
+      "word": "vapor",
+      "persian_translate": "بخار",
+      "sentence": "Water vapor rises from the hot spring.",
+      "persian_sentence_translate": "بخار آب از چشمه آب گرم بلند می شود."
+    },
+    {
+      "id": 38,
+      "word": "eliminate",
+      "persian_translate": "حذف کردن",
+      "sentence": "The new law will eliminate many tax loopholes.",
+      "persian_sentence_translate": "قانون جدید بسیاری از راه های فرار مالیاتی را از بین خواهد برد."
+    },
+    {
+      "id": 39,
+      "word": "villain",
+      "persian_translate": "شخصیت منفی",
+      "sentence": "He plays the villain in the new movie.",
+      "persian_sentence_translate": "او در فیلم جدید نقش شخصیت منفی را بازی می کند."
+    },
+    {
+      "id": 40,
+      "word": "dense",
+      "persian_translate": "متراکم",
+      "sentence": "The forest was dense with trees.",
+      "persian_sentence_translate": "جنگل از درختان متراکم بود."
+    },
+    {
+      "id": 41,
+      "word": "utilize",
+      "persian_translate": "استفاده کردن",
+      "sentence": "We must utilize our resources wisely.",
+      "persian_sentence_translate": "ما باید از منابع خود به طور عاقلانه استفاده کنیم."
+    },
+    {
+      "id": 42,
+      "word": "humid",
+      "persian_translate": "مرطوب",
+      "sentence": "The weather was hot and humid.",
+      "persian_sentence_translate": "هوا گرم و مرطوب بود."
+    },
+    {
+      "id": 43,
+      "word": "theory",
+      "persian_translate": "نظریه",
+      "sentence": "Einstein's theory of relativity is famous.",
+      "persian_sentence_translate": "نظریه نسبیت انیشتین مشهور است."
+    },
+    {
+      "id": 44,
+      "word": "descend",
+      "persian_translate": "پایین آمدن",
+      "sentence": "The plane began to descend.",
+      "persian_sentence_translate": "هواپیما شروع به پایین آمدن کرد."
+    },
+    {
+      "id": 45,
+      "word": "circulate",
+      "persian_translate": "پخش شدن",
+      "sentence": "Rumors began to circulate about his resignation.",
+      "persian_sentence_translate": "شایعاتی در مورد استعفای او شروع به پخش شدن کرد."
+    },
+    {
+      "id": 46,
+      "word": "enormous",
+      "persian_translate": "عظیم",
+      "sentence": "An enormous whale was washed up on the beach.",
+      "persian_sentence_translate": "یک نهنگ عظیم در ساحل به گل نشسته بود."
+    },
+    {
+      "id": 47,
+      "word": "predict",
+      "persian_translate": "پیش بینی کردن",
+      "sentence": "It is difficult to predict the future.",
+      "persian_sentence_translate": "پیش بینی آینده دشوار است."
+    },
+    {
+      "id": 48,
+      "word": "vanish",
+      "persian_translate": "ناپدید شدن",
+      "sentence": "The magician made the rabbit vanish.",
+      "persian_sentence_translate": "شعبده باز خرگوش را ناپدید کرد."
+    },
+    {
+      "id": 49,
+      "word": "tradition",
+      "persian_translate": "سنت",
+      "sentence": "It is a tradition to eat turkey on Thanksgiving.",
+      "persian_sentence_translate": "خوردن بوقلمون در روز شکرگزاری یک سنت است."
+    },
+    {
+      "id": 50,
+      "word": "rural",
+      "persian_translate": "روستایی",
+      "sentence": "He grew up in a rural area.",
+      "persian_sentence_translate": "او در یک منطقه روستایی بزرگ شد."
+    },
+    {
+      "id": 51,
+      "word": "burden",
+      "persian_translate": "بار",
+      "sentence": "He carried a heavy burden on his back.",
+      "persian_sentence_translate": "او بار سنگینی را بر پشت خود حمل می کرد."
+    },
+    {
+      "id": 52,
+      "word": "campus",
+      "persian_translate": "محوطه دانشگاه",
+      "sentence": "The university has a beautiful campus.",
+      "persian_sentence_translate": "این دانشگاه محوطه زیبایی دارد."
+    },
+    {
+      "id": 53,
+      "word": "majority",
+      "persian_translate": "اکثریت",
+      "sentence": "The majority of people voted for the new law.",
+      "persian_sentence_translate": "اکثریت مردم به قانون جدید رای دادند."
+    },
+    {
+      "id": 54,
+      "word": "assemble",
+      "persian_translate": "جمع شدن",
+      "sentence": "The students assembled in the hall.",
+      "persian_sentence_translate": "دانش آموزان در سالن جمع شدند."
+    },
+    {
+      "id": 55,
+      "word": "explore",
+      "persian_translate": "کشف کردن",
+      "sentence": "They went to explore the new island.",
+      "persian_sentence_translate": "آنها برای کشف جزیره جدید رفتند."
+    },
+    {
+      "id": 56,
+      "word": "topic",
+      "persian_translate": "موضوع",
+      "sentence": "The topic of the lecture was very interesting.",
+      "persian_sentence_translate": "موضوع سخنرانی بسیار جالب بود."
+    },
+    {
+      "id": 57,
+      "word": "debate",
+      "persian_translate": "مناظره",
+      "sentence": "There was a lively debate about the new policy.",
+      "persian_sentence_translate": "بحث و مناظره پرشوری در مورد سیاست جدید وجود داشت."
+    },
+    {
+      "id": 58,
+      "word": "evade",
+      "persian_translate": "فرار کردن",
+      "sentence": "He tried to evade paying his taxes.",
+      "persian_sentence_translate": "او سعی کرد از پرداخت مالیات فرار کند."
+    },
+    {
+      "id": 59,
+      "word": "probe",
+      "persian_translate": "تحقیق کردن",
+      "sentence": "The police are probing the cause of the accident.",
+      "persian_sentence_translate": "پلیس در حال تحقیق در مورد علت این حادثه است."
+    },
+    {
+      "id": 60,
+      "word": "reform",
+      "persian_translate": "اصلاح کردن",
+      "sentence": "The government is planning to reform the education system.",
+      "persian_sentence_translate": "دولت در حال برنامه ریزی برای اصلاح نظام آموزشی است."
+    },
+    {
+      "id": 61,
+      "word": "approach",
+      "persian_translate": "نزدیک شدن",
+      "sentence": "As we approached the house, we could see a light on.",
+      "persian_sentence_translate": "همانطور که به خانه نزدیک می شدیم، می توانستیم نوری را ببینیم."
+    },
+    {
+      "id": 62,
+      "word": "detect",
+      "persian_translate": "تشخیص دادن",
+      "sentence": "The smoke detector detected the fire.",
+      "persian_sentence_translate": "آشکارساز دود آتش را تشخیص داد."
+    },
+    {
+      "id": 63,
+      "word": "defect",
+      "persian_translate": "نقص",
+      "sentence": "There is a defect in the product.",
+      "persian_sentence_translate": "در این محصول نقصی وجود دارد."
+    },
+    {
+      "id": 64,
+      "word": "employee",
+      "persian_translate": "کارمند",
+      "sentence": "The company has over 500 employees.",
+      "persian_sentence_translate": "این شرکت بیش از 500 کارمند دارد."
+    },
+    {
+      "id": 65,
+      "word": "neglect",
+      "persian_translate": "غفلت کردن",
+      "sentence": "He neglected his duties.",
+      "persian_sentence_translate": "او از وظایف خود غفلت کرد."
+    },
+    {
+      "id": 66,
+      "word": "deceive",
+      "persian_translate": "فریب دادن",
+      "sentence": "He deceived her into giving him the money.",
+      "persian_sentence_translate": "او او را فریب داد تا پول را به او بدهد."
+    },
+    {
+      "id": 67,
+      "word": "undoubtedly",
+      "persian_translate": "بدون شک",
+      "sentence": "She is undoubtedly the best student in the class.",
+      "persian_sentence_translate": "او بدون شک بهترین دانش آموز کلاس است."
+    },
+    {
+      "id": 68,
+      "word": "popular",
+      "persian_translate": "محبوب",
+      "sentence": "This is a very popular restaurant.",
+      "persian_sentence_translate": "این یک رستوران بسیار محبوب است."
+    },
+    {
+      "id": 69,
+      "word": "thorough",
+      "persian_translate": "کامل",
+      "sentence": "The police conducted a thorough investigation.",
+      "persian_sentence_translate": "پلیس تحقیقات کاملی انجام داد."
+    },
+    {
+      "id": 70,
+      "word": "client",
+      "persian_translate": "مشتری",
+      "sentence": "The lawyer met with his client.",
+      "persian_sentence_translate": "وکیل با موکل خود ملاقات کرد."
+    },
+    {
+      "id": 71,
+      "word": "comprehensive",
+      "persian_translate": "جامع",
+      "sentence": "The book provides a comprehensive guide to the subject.",
+      "persian_sentence_translate": "این کتاب راهنمای جامعی برای این موضوع ارائه می دهد."
+    },
+    {
+      "id": 72,
+      "word": "defraud",
+      "persian_translate": "کلاهبرداری کردن",
+      "sentence": "He was accused of defrauding the company.",
+      "persian_sentence_translate": "او به کلاهبرداری از شرکت متهم شد."
+    },
+    {
+      "id": 73,
+      "word": "postpone",
+      "persian_translate": "به تعویق انداختن",
+      "sentence": "The meeting was postponed until next week.",
+      "persian_sentence_translate": "جلسه تا هفته آینده به تعویق افتاد."
+    },
+    {
+      "id": 74,
+      "word": "consent",
+      "persian_translate": "رضایت دادن",
+      "sentence": "He finally consented to the plan.",
+      "persian_sentence_translate": "او سرانجام با این طرح موافقت کرد."
+    },
+    {
+      "id": 75,
+      "word": "massive",
+      "persian_translate": "بسیار بزرگ",
+      "sentence": "A massive iceberg blocked the ship's path.",
+      "persian_sentence_translate": "یک کوه یخ بسیار بزرگ مسیر کشتی را مسدود کرد."
+    },
+    {
+      "id": 76,
+      "word": "capsule",
+      "persian_translate": "کپسول",
+      "sentence": "He swallowed the capsule with a glass of water.",
+      "persian_sentence_translate": "او کپسول را با یک لیوان آب قورت داد."
+    },
+    {
+      "id": 77,
+      "word": "preserve",
+      "persian_translate": "حفظ کردن",
+      "sentence": "We must preserve our natural resources.",
+      "persian_sentence_translate": "ما باید منابع طبیعی خود را حفظ کنیم."
+    },
+    {
+      "id": 78,
+      "word": "denounce",
+      "persian_translate": "محکوم کردن",
+      "sentence": "The government denounced the terrorist attack.",
+      "persian_sentence_translate": "دولت حمله تروریستی را محکوم کرد."
+    },
+    {
+      "id": 79,
+      "word": "unique",
+      "persian_translate": "منحصر به فرد",
+      "sentence": "This is a unique opportunity.",
+      "persian_sentence_translate": "این یک فرصت منحصر به فرد است."
+    },
+    {
+      "id": 80,
+      "word": "torrent",
+      "persian_translate": "سیل",
+      "sentence": "A torrent of rain fell from the sky.",
+      "persian_sentence_translate": "سیلی از باران از آسمان بارید."
+    },
+    {
+      "id": 81,
+      "word": "resent",
+      "persian_translate": "رنجیدن",
+      "sentence": "She resented his interference in her work.",
+      "persian_sentence_translate": "او از دخالت او در کارش رنجید."
+    },
+    {
+      "id": 82,
+      "word": "molest",
+      "persian_translate": "آزار دادن",
+      "sentence": "It is illegal to molest wild animals.",
+      "persian_sentence_translate": "آزار و اذیت حیوانات وحشی غیرقانونی است."
+    },
+    {
+      "id": 83,
+      "word": "gloomy",
+      "persian_translate": "تاریک و دلگیر",
+      "sentence": "The room was gloomy and cold.",
+      "persian_sentence_translate": "اتاق تاریک و دلگیر و سرد بود."
+    },
+    {
+      "id": 84,
+      "word": "unforeseen",
+      "persian_translate": "پیش بینی نشده",
+      "sentence": "We had to cancel our trip due to unforeseen circumstances.",
+      "persian_sentence_translate": "ما به دلیل شرایط پیش بینی نشده مجبور به لغو سفر خود شدیم."
+    },
+    {
+      "id": 85,
+      "word": "exaggerate",
+      "persian_translate": "اغراق کردن",
+      "sentence": "He tends to exaggerate his achievements.",
+      "persian_sentence_translate": "او تمایل دارد در مورد دستاوردهای خود اغراق کند."
+    },
+    {
+      "id": 86,
+      "word": "amateur",
+      "persian_translate": "آماتور",
+      "sentence": "He is an amateur photographer.",
+      "persian_sentence_translate": "او یک عکاس آماتور است."
+    },
+    {
+      "id": 87,
+      "word": "mediocre",
+      "persian_translate": "متوسط",
+      "sentence": "The restaurant was mediocre, nothing special.",
+      "persian_sentence_translate": "رستوران متوسط بود، چیز خاصی نبود."
+    },
+    {
+      "id": 88,
+      "word": "variety",
+      "persian_translate": "تنوع",
+      "sentence": "There is a wide variety of flowers in the garden.",
+      "persian_sentence_translate": "تنوع گسترده ای از گل ها در باغ وجود دارد."
+    },
+    {
+      "id": 89,
+      "word": "valid",
+      "persian_translate": "معتبر",
+      "sentence": "You need a valid passport to travel abroad.",
+      "persian_sentence_translate": "برای سفر به خارج از کشور به یک گذرنامه معتبر نیاز دارید."
+    },
+    {
+      "id": 90,
+      "word": "survive",
+      "persian_translate": "زنده ماندن",
+      "sentence": "It is difficult to survive in the desert.",
+      "persian_sentence_translate": "زنده ماندن در بیابان دشوار است."
+    },
+    {
+      "id": 91,
+      "word": "weird",
+      "persian_translate": "عجیب",
+      "sentence": "I had a weird dream last night.",
+      "persian_sentence_translate": "دیشب خواب عجیبی دیدم."
+    },
+    {
+      "id": 92,
+      "word": "prominent",
+      "persian_translate": "برجسته",
+      "sentence": "He is a prominent figure in the community.",
+      "persian_sentence_translate": "او یک چهره برجسته در جامعه است."
+    },
+    {
+      "id": 93,
+      "word": "security",
+      "persian_translate": "امنیت",
+      "sentence": "The company has tight security.",
+      "persian_sentence_translate": "این شرکت امنیت شدیدی دارد."
+    },
+    {
+      "id": 94,
+      "word": "bulky",
+      "persian_translate": "حجیم",
+      "sentence": "The package was bulky and difficult to carry.",
+      "persian_sentence_translate": "بسته حجیم بود و حمل آن دشوار بود."
+    },
+    {
+      "id": 95,
+      "word": "reluctant",
+      "persian_translate": "بی میل",
+      "sentence": "She was reluctant to lend him the money.",
+      "persian_sentence_translate": "او تمایلی به قرض دادن پول به او نداشت."
+    },
+    {
+      "id": 96,
+      "word": "obvious",
+      "persian_translate": "واضح",
+      "sentence": "It was obvious that he was lying.",
+      "persian_sentence_translate": "واضح بود که او دروغ می گوید."
+    },
+    {
+      "id": 97,
+      "word": "vicinity",
+      "persian_translate": "مجاورت",
+      "sentence": "There are no shops in the immediate vicinity of the house.",
+      "persian_sentence_translate": "در مجاورت خانه هیچ مغازه ای وجود ندارد."
+    },
+    {
+      "id": 98,
+      "word": "century",
+      "persian_translate": "قرن",
+      "sentence": "The 21st century began in the year 2001.",
+      "persian_sentence_translate": "قرن بیست و یکم در سال 2001 آغاز شد."
+    },
+    {
+      "id": 99,
+      "word": "rage",
+      "persian_translate": "خشم",
+      "sentence": "He flew into a rage when he heard the news.",
+      "persian_sentence_translate": "وقتی خبر را شنید، خشمگین شد."
+    },
+    {
+      "id": 100,
+      "word": "document",
+      "persian_translate": "سند",
+      "sentence": "Please sign the document at the bottom.",
+      "persian_sentence_translate": "لطفاً سند را در پایین امضا کنید."
+    },
+    {
+      "id": 101,
+      "word": "conclude",
+      "persian_translate": "نتیجه گیری کردن",
+      "sentence": "The report concluded that the company was not at fault.",
+      "persian_sentence_translate": "این گزارش نتیجه گرفت که شرکت مقصر نبوده است."
+    },
+    {
+      "id": 102,
+      "word": "undeniable",
+      "persian_translate": "غیرقابل انکار",
+      "sentence": "It is an undeniable fact that the world is round.",
+      "persian_sentence_translate": "این یک واقعیت غیرقابل انکار است که زمین گرد است."
+    },
+    {
+      "id": 103,
+      "word": "resist",
+      "persian_translate": "مقاومت کردن",
+      "sentence": "The soldiers resisted the enemy's attack.",
+      "persian_sentence_translate": "سربازان در برابر حمله دشمن مقاومت کردند."
+    },
+    {
+      "id": 104,
+      "word": "lack",
+      "persian_translate": "فقدان",
+      "sentence": "There is a lack of evidence to support his claim.",
+      "persian_sentence_translate": "برای حمایت از ادعای او فقدان مدرک وجود دارد."
+    },
+    {
+      "id": 105,
+      "word": "ignore",
+      "persian_translate": "نادیده گرفتن",
+      "sentence": "He ignored my advice.",
+      "persian_sentence_translate": "او توصیه من را نادیده گرفت."
+    },
+    {
+      "id": 106,
+      "word": "challenge",
+      "persian_translate": "چالش",
+      "sentence": "The new job presents a real challenge.",
+      "persian_sentence_translate": "شغل جدید یک چالش واقعی را به همراه دارد."
+    },
+    {
+      "id": 107,
+      "word": "miniature",
+      "persian_translate": "مینیاتوری",
+      "sentence": "She has a collection of miniature cars.",
+      "persian_sentence_translate": "او مجموعه ای از ماشین های مینیاتوری دارد."
+    },
+    {
+      "id": 108,
+      "word": "source",
+      "persian_translate": "منبع",
+      "sentence": "The sun is the main source of light and heat.",
+      "persian_sentence_translate": "خورشید منبع اصلی نور و گرما است."
+    },
+    {
+      "id": 109,
+      "word": "excel",
+      "persian_translate": "برتری داشتن",
+      "sentence": "She excels at sports.",
+      "persian_sentence_translate": "او در ورزش برتری دارد."
+    },
+    {
+      "id": 110,
+      "word": "feminine",
+      "persian_translate": "زنانه",
+      "sentence": "She has a very feminine voice.",
+      "persian_sentence_translate": "او صدای بسیار زنانه ای دارد."
+    },
+    {
+      "id": 111,
+      "word": "mount",
+      "persian_translate": "سوار شدن",
+      "sentence": "He mounted his horse and rode away.",
+      "persian_sentence_translate": "او سوار اسبش شد و رفت."
+    },
+    {
+      "id": 112,
+      "word": "compete",
+      "persian_translate": "رقابت کردن",
+      "sentence": "The two teams will compete for the championship.",
+      "persian_sentence_translate": "این دو تیم برای قهرمانی با هم رقابت خواهند کرد."
+    },
+    {
+      "id": 113,
+      "word": "dread",
+      "persian_translate": "ترسیدن",
+      "sentence": "I dread going to the dentist.",
+      "persian_sentence_translate": "من از رفتن به دندانپزشک می ترسم."
+    },
+    {
+      "id": 114,
+      "word": "masculine",
+      "persian_translate": "مردانه",
+      "sentence": "He has a very masculine build.",
+      "persian_sentence_translate": "او هیکل بسیار مردانه ای دارد."
+    },
+    {
+      "id": 115,
+      "word": "menace",
+      "persian_translate": "تهدید",
+      "sentence": "Pollution is a menace to the environment.",
+      "persian_sentence_translate": "آلودگی تهدیدی برای محیط زیست است."
+    },
+    {
+      "id": 116,
+      "word": "tendency",
+      "persian_translate": "تمایل",
+      "sentence": "He has a tendency to be lazy.",
+      "persian_sentence_translate": "او تمایل به تنبلی دارد."
+    },
+    {
+      "id": 117,
+      "word": "underestimate",
+      "persian_translate": "دست کم گرفتن",
+      "sentence": "Don't underestimate the difficulty of the task.",
+      "persian_sentence_translate": "سختی کار را دست کم نگیرید."
+    },
+    {
+      "id": 118,
+      "word": "victorious",
+      "persian_translate": "پیروز",
+      "sentence": "The victorious army returned home.",
+      "persian_sentence_translate": "ارتش پیروز به خانه بازگشت."
+    },
+    {
+      "id": 119,
+      "word": "numerous",
+      "persian_translate": "متعدد",
+      "sentence": "There are numerous reasons for his decision.",
+      "persian_sentence_translate": "دلایل متعددی برای تصمیم او وجود دارد."
+    },
+    {
+      "id": 120,
+      "word": "flexible",
+      "persian_translate": "انعطاف پذیر",
+      "sentence": "The new material is very flexible.",
+      "persian_sentence_translate": "ماده جدید بسیار انعطاف پذیر است."
+    },
+    {
+      "id": 121,
+      "word": "evidence",
+      "persian_translate": "مدرک",
+      "sentence": "There is no evidence to support his story.",
+      "persian_sentence_translate": "هیچ مدرکی برای حمایت از داستان او وجود ندارد."
+    },
+    {
+      "id": 122,
+      "word": "solitary",
+      "persian_translate": "تنها",
+      "sentence": "He leads a solitary life.",
+      "persian_sentence_translate": "او زندگی تنهایی را سپری می کند."
+    },
+    {
+      "id": 123,
+      "word": "vision",
+      "persian_translate": "بینایی",
+      "sentence": "She has poor vision and needs to wear glasses.",
+      "persian_sentence_translate": "او بینایی ضعیفی دارد و باید عینک بزند."
+    },
+    {
+      "id": 124,
+      "word": "frequent",
+      "persian_translate": "مکرر",
+      "sentence": "He is a frequent visitor to the library.",
+      "persian_sentence_translate": "او از بازدیدکنندگان مکرر کتابخانه است."
+    },
+    {
+      "id": 125,
+      "word": "glimpse",
+      "persian_translate": "نگاهی گذرا",
+      "sentence": "I caught a glimpse of her as she walked by.",
+      "persian_sentence_translate": "هنگامی که او رد می شد، نگاهی گذرا به او انداختم."
+    },
+    {
+      "id": 126,
+      "word": "recent",
+      "persian_translate": "اخیر",
+      "sentence": "There have been many changes in recent years.",
+      "persian_sentence_translate": "در سال های اخیر تغییرات زیادی رخ داده است."
+    },
+    {
+      "id": 127,
+      "word": "decade",
+      "persian_translate": "دهه",
+      "sentence": "The company has been in business for over a decade.",
+      "persian_sentence_translate": "این شرکت بیش از یک دهه است که در حال فعالیت است."
+    },
+    {
+      "id": 128,
+      "word": "hesitate",
+      "persian_translate": "تردید کردن",
+      "sentence": "Don't hesitate to ask if you have any questions.",
+      "persian_sentence_translate": "اگر سوالی دارید در پرسیدن آن تردید نکنید."
+    },
+    {
+      "id": 129,
+      "word": "absurd",
+      "persian_translate": "پوچ",
+      "sentence": "The idea that the earth is flat is absurd.",
+      "persian_sentence_translate": "این ایده که زمین صاف است، پوچ است."
+    },
+    {
+      "id": 130,
+      "word": "conflict",
+      "persian_translate": "درگیری",
+      "sentence": "There is a conflict between the two countries.",
+      "persian_sentence_translate": "بین این دو کشور درگیری وجود دارد."
+    },
+    {
+      "id": 131,
+      "word": "minority",
+      "persian_translate": "اقلیت",
+      "sentence": "The ethnic minority in the country faces discrimination.",
+      "persian_sentence_translate": "اقلیت قومی در این کشور با تبعیض مواجه است."
+    },
+    {
+      "id": 132,
+      "word": "fiction",
+      "persian_translate": "داستان",
+      "sentence": "I enjoy reading science fiction.",
+      "persian_sentence_translate": "من از خواندن داستان های علمی تخیلی لذت می برم."
+    },
+    {
+      "id": 133,
+      "word": "ignite",
+      "persian_translate": "آتش زدن",
+      "sentence": "The spark ignited the dry grass.",
+      "persian_sentence_translate": "جرقه علف های خشک را آتش زد."
+    },
+    {
+      "id": 134,
+      "word": "abolish",
+      "persian_translate": "لغو کردن",
+      "sentence": "The government abolished slavery in 1865.",
+      "persian_sentence_translate": "دولت برده داری را در سال 1865 لغو کرد."
+    },
+    {
+      "id": 135,
+      "word": "urban",
+      "persian_translate": "شهری",
+      "sentence": "He lives in an urban area.",
+      "persian_sentence_translate": "او در یک منطقه شهری زندگی می کند."
+    },
+    {
+      "id": 136,
+      "word": "population",
+      "persian_translate": "جمعیت",
+      "sentence": "The world's population is increasing rapidly.",
+      "persian_sentence_translate": "جمعیت جهان به سرعت در حال افزایش است."
+    },
+    {
+      "id": 137,
+      "word": "frank",
+      "persian_translate": "رک",
+      "sentence": "To be frank, I don't think you're right.",
+      "persian_sentence_translate": "رک و پوست کنده، فکر نمی کنم حق با شما باشد."
+    },
+    {
+      "id": 138,
+      "word": "pollute",
+      "persian_translate": "آلوده کردن",
+      "sentence": "Factories pollute the air and water.",
+      "persian_sentence_translate": "کارخانه ها هوا و آب را آلوده می کنند."
+    },
+    {
+      "id": 139,
+      "word": "reveal",
+      "persian_translate": "آشکار کردن",
+      "sentence": "The investigation revealed the truth.",
+      "persian_sentence_translate": "تحقیقات حقیقت را آشکار کرد."
+    },
+    {
+      "id": 140,
+      "word": "prohibit",
+      "persian_translate": "ممنوع کردن",
+      "sentence": "Smoking is prohibited in this building.",
+      "persian_sentence_translate": "سیگار کشیدن در این ساختمان ممنوع است."
+    },
+    {
+      "id": 141,
+      "word": "urgent",
+      "persian_translate": "فوری",
+      "sentence": "There is an urgent need for blood donors.",
+      "persian_sentence_translate": "نیاز فوری به اهداکنندگان خون وجود دارد."
+    },
+    {
+      "id": 142,
+      "word": "adequate",
+      "persian_translate": "کافی",
+      "sentence": "The food was adequate, but not great.",
+      "persian_sentence_translate": "غذا کافی بود، اما عالی نبود."
+    },
+    {
+      "id": 143,
+      "word": "decrease",
+      "persian_translate": "کاهش دادن",
+      "sentence": "The company's profits have decreased this year.",
+      "persian_sentence_translate": "سود شرکت در سال جاری کاهش یافته است."
+    },
+    {
+      "id": 144,
+      "word": "audible",
+      "persian_translate": "قابل شنیدن",
+      "sentence": "His voice was barely audible.",
+      "persian_sentence_translate": "صدای او به سختی قابل شنیدن بود."
+    },
+    {
+      "id": 145,
+      "word": "journalist",
+      "persian_translate": "روزنامه نگار",
+      "sentence": "She is a journalist for a major newspaper.",
+      "persian_sentence_translate": "او روزنامه نگار یک روزنامه بزرگ است."
+    },
+    {
+      "id": 146,
+      "word": "famine",
+      "persian_translate": "قحطی",
+      "sentence": "Millions of people died in the famine.",
+      "persian_sentence_translate": "میلیون ها نفر در قحطی جان باختند."
+    },
+    {
+      "id": 147,
+      "word": "revive",
+      "persian_translate": "احیا کردن",
+      "sentence": "The doctors managed to revive him.",
+      "persian_sentence_translate": "پزشکان موفق شدند او را احیا کنند."
+    },
+    {
+      "id": 148,
+      "word": "commence",
+      "persian_translate": "شروع کردن",
+      "sentence": "The meeting will commence at 10 am.",
+      "persian_sentence_translate": "جلسه ساعت 10 صبح شروع می شود."
+    },
+    {
+      "id": 149,
+      "word": "observant",
+      "persian_translate": "تیزبین",
+      "sentence": "She is a very observant child.",
+      "persian_sentence_translate": "او کودک بسیار تیزبینی است."
+    },
+    {
+      "id": 150,
+      "word": "identify",
+      "persian_translate": "شناسایی کردن",
+      "sentence": "I can't identify the man in the picture.",
+      "persian_sentence_translate": "من نمی توانم مرد داخل عکس را شناسایی کنم."
+    },
+    {
+      "id": 151,
+      "word": "migrate",
+      "persian_translate": "مهاجرت کردن",
+      "sentence": "Many birds migrate to warmer countries in the winter.",
+      "persian_sentence_translate": "بسیاری از پرندگان در زمستان به کشورهای گرمتر مهاجرت می کنند."
+    },
+    {
+      "id": 152,
+      "word": "vessel",
+      "persian_translate": "کشتی",
+      "sentence": "The vessel was carrying a cargo of oil.",
+      "persian_sentence_translate": "کشتی در حال حمل محموله نفت بود."
+    },
+    {
+      "id": 153,
+      "word": "persist",
+      "persian_translate": "اصرار کردن",
+      "sentence": "He persisted in his efforts to learn to play the piano.",
+      "persian_sentence_translate": "او در تلاش های خود برای یادگیری نواختن پیانو اصرار داشت."
+    },
+    {
+      "id": 154,
+      "word": "hazy",
+      "persian_translate": "مه آلود",
+      "sentence": "The mountains were hazy in the distance.",
+      "persian_sentence_translate": "کوه ها از دور مه آلود بودند."
+    },
+    {
+      "id": 155,
+      "word": "gleam",
+      "persian_translate": "درخشیدن",
+      "sentence": "The sun gleamed on the water.",
+      "persian_sentence_translate": "خورشید روی آب می درخشید."
+    },
+    {
+      "id": 156,
+      "word": "editor",
+      "persian_translate": "ویراستار",
+      "sentence": "The editor of the newspaper is responsible for its content.",
+      "persian_sentence_translate": "ویراستار روزنامه مسئول محتوای آن است."
+    },
+    {
+      "id": 157,
+      "word": "unruly",
+      "persian_translate": "سرکش",
+      "sentence": "The teacher had difficulty controlling the unruly class.",
+      "persian_sentence_translate": "معلم در کنترل کلاس سرکش مشکل داشت."
+    },
+    {
+      "id": 158,
+      "word": "rival",
+      "persian_translate": "رقیب",
+      "sentence": "The two teams are rivals for the championship.",
+      "persian_sentence_translate": "این دو تیم رقیب قهرمانی هستند."
+    },
+    {
+      "id": 159,
+      "word": "violent",
+      "persian_translate": "خشونت آمیز",
+      "sentence": "The movie was too violent for children.",
+      "persian_sentence_translate": "فیلم برای کودکان بیش از حد خشونت آمیز بود."
+    },
+    {
+      "id": 160,
+      "word": "brutal",
+      "persian_translate": "وحشیانه",
+      "sentence": "The prisoner was subjected to brutal treatment.",
+      "persian_sentence_translate": "زندانی مورد رفتار وحشیانه ای قرار گرفت."
+    },
+    {
+      "id": 161,
+      "word": "opponent",
+      "persian_translate": "حریف",
+      "sentence": "He defeated his opponent in the chess match.",
+      "persian_sentence_translate": "او حریف خود را در مسابقه شطرنج شکست داد."
+    },
+    {
+      "id": 162,
+      "word": "brawl",
+      "persian_translate": "نزاع",
+      "sentence": "A brawl broke out between the two groups of fans.",
+      "persian_sentence_translate": "بین دو گروه از هواداران نزاع درگرفت."
+    },
+    {
+      "id": 163,
+      "word": "duplicate",
+      "persian_translate": "کپی",
+      "sentence": "Please make a duplicate of this key.",
+      "persian_sentence_translate": "لطفاً از این کلید یک کپی تهیه کنید."
+    },
+    {
+      "id": 164,
+      "word": "vicious",
+      "persian_translate": "شرور",
+      "sentence": "He has a vicious temper.",
+      "persian_sentence_translate": "او خلق و خوی شرور دارد."
+    },
+    {
+      "id": 165,
+      "word": "whirling",
+      "persian_translate": "چرخان",
+      "sentence": "The leaves were whirling in the wind.",
+      "persian_sentence_translate": "برگ ها در باد می چرخیدند."
+    },
+    {
+      "id": 166,
+      "word": "underdog",
+      "persian_translate": "بازنده",
+      "sentence": "Everyone loves to see the underdog win.",
+      "persian_sentence_translate": "همه دوست دارند شاهد پیروزی بازنده باشند."
+    },
+    {
+      "id": 167,
+      "word": "thrust",
+      "persian_translate": "فشار دادن",
+      "sentence": "He thrust the money into my hand.",
+      "persian_sentence_translate": "او پول را به دستم فشار داد."
+    },
+    {
+      "id": 168,
+      "word": "bewildered",
+      "persian_translate": "گیج",
+      "sentence": "I was bewildered by his strange behavior.",
+      "persian_sentence_translate": "من از رفتار عجیب او گیج شده بودم."
+    },
+    {
+      "id": 169,
+      "word": "expand",
+      "persian_translate": "گسترش دادن",
+      "sentence": "The company is planning to expand its operations.",
+      "persian_sentence_translate": "این شرکت در حال برنامه ریزی برای گسترش فعالیت های خود است."
+    },
+    {
+      "id": 170,
+      "word": "alter",
+      "persian_translate": "تغییر دادن",
+      "sentence": "We had to alter our plans because of the bad weather.",
+      "persian_sentence_translate": "ما به دلیل هوای بد مجبور به تغییر برنامه های خود شدیم."
+    },
+    {
+      "id": 171,
+      "word": "mature",
+      "persian_translate": "بالغ",
+      "sentence": "She is very mature for her age.",
+      "persian_sentence_translate": "او برای سنش بسیار بالغ است."
+    },
+    {
+      "id": 172,
+      "word": "sacred",
+      "persian_translate": "مقدس",
+      "sentence": "The cow is a sacred animal in India.",
+      "persian_sentence_translate": "گاو در هند یک حیوان مقدس است."
+    },
+    {
+      "id": 173,
+      "word": "revise",
+      "persian_translate": "تجدید نظر کردن",
+      "sentence": "I need to revise my essay before I submit it.",
+      "persian_sentence_translate": "من باید قبل از ارسال مقاله ام آن را تجدید نظر کنم."
+    },
+    {
+      "id": 174,
+      "word": "pledge",
+      "persian_translate": "تعهد",
+      "sentence": "He made a pledge to support the charity.",
+      "persian_sentence_translate": "او تعهد کرد که از این موسسه خیریه حمایت کند."
+    },
+    {
+      "id": 175,
+      "word": "casual",
+      "persian_translate": "غیر رسمی",
+      "sentence": "It was a casual meeting, not a formal one.",
+      "persian_sentence_translate": "این یک جلسه غیر رسمی بود، نه یک جلسه رسمی."
+    },
+    {
+      "id": 176,
+      "word": "pursue",
+      "persian_translate": "دنبال کردن",
+      "sentence": "She wants to pursue a career in medicine.",
+      "persian_sentence_translate": "او می خواهد در رشته پزشکی شغلی را دنبال کند."
+    },
+    {
+      "id": 177,
+      "word": "unanimous",
+      "persian_translate": "متفق القول",
+      "sentence": "The decision was unanimous.",
+      "persian_sentence_translate": "این تصمیم متفق القول بود."
+    },
+    {
+      "id": 178,
+      "word": "fortunate",
+      "persian_translate": "خوش شانس",
+      "sentence": "He was fortunate to survive the accident.",
+      "persian_sentence_translate": "او خوش شانس بود که از این حادثه جان سالم به در برد."
+    },
+    {
+      "id": 179,
+      "word": "pioneer",
+      "persian_translate": "پیشگام",
+      "sentence": "He was a pioneer in the field of computer science.",
+      "persian_sentence_translate": "او در زمینه علوم کامپیوتر پیشگام بود."
+    },
+    {
+      "id": 180,
+      "word": "innovative",
+      "persian_translate": "نوآورانه",
+      "sentence": "The company is known for its innovative products.",
+      "persian_sentence_translate": "این شرکت به دلیل محصولات نوآورانه خود شناخته شده است."
+    },
+    {
+      "id": 181,
+      "word": "slender",
+      "persian_translate": "لاغر",
+      "sentence": "She has a slender figure.",
+      "persian_sentence_translate": "او اندامی لاغر دارد."
+    },
+    {
+      "id": 182,
+      "word": "surpass",
+      "persian_translate": "فراتر رفتن",
+      "sentence": "He surpassed all our expectations.",
+      "persian_sentence_translate": "او از تمام انتظارات ما فراتر رفت."
+    },
+    {
+      "id": 183,
+      "word": "vast",
+      "persian_translate": "پهناور",
+      "sentence": "The Sahara is a vast desert.",
+      "persian_sentence_translate": "صحرای بزرگ یک بیابان پهناور است."
+    },
+    {
+      "id": 184,
+      "word": "doubt",
+      "persian_translate": "شک",
+      "sentence": "I have no doubt that he is telling the truth.",
+      "persian_sentence_translate": "من شکی ندارم که او حقیقت را می گوید."
+    },
+    {
+      "id": 185,
+      "word": "capacity",
+      "persian_translate": "ظرفیت",
+      "sentence": "The stadium has a seating capacity of 50,000.",
+      "persian_sentence_translate": "این استادیوم 50000 نفر ظرفیت دارد."
+    },
+    {
+      "id": 186,
+      "word": "penetrate",
+      "persian_translate": "نفوذ کردن",
+      "sentence": "The bullet penetrated his armor.",
+      "persian_sentence_translate": "گلوله به زره او نفوذ کرد."
+    },
+    {
+      "id": 187,
+      "word": "pierce",
+      "persian_translate": "سوراخ کردن",
+      "sentence": "The needle pierced her skin.",
+      "persian_sentence_translate": "سوزن پوست او را سوراخ کرد."
+    },
+    {
+      "id": 188,
+      "word": "accurate",
+      "persian_translate": "دقیق",
+      "sentence": "The information in the report is accurate.",
+      "persian_sentence_translate": "اطلاعات موجود در گزارش دقیق است."
+    },
+    {
+      "id": 189,
+      "word": "microscope",
+      "persian_translate": "میکروسکوپ",
+      "sentence": "We used a microscope to look at the cells.",
+      "persian_sentence_translate": "ما برای دیدن سلول ها از میکروسکوپ استفاده کردیم."
+    },
+    {
+      "id": 190,
+      "word": "grateful",
+      "persian_translate": "سپاسگزار",
+      "sentence": "I am grateful for your help.",
+      "persian_sentence_translate": "من از کمک شما سپاسگزارم."
+    },
+    {
+      "id": 191,
+      "word": "cautious",
+      "persian_translate": "محتاط",
+      "sentence": "He is a very cautious driver.",
+      "persian_sentence_translate": "او راننده بسیار محتاطی است."
+    },
+    {
+      "id": 192,
+      "word": "confident",
+      "persian_translate": "مطمئن",
+      "sentence": "I am confident that we will win the game.",
+      "persian_sentence_translate": "من مطمئن هستم که ما بازی را خواهیم برد."
+    },
+    {
+      "id": 193,
+      "word": "appeal",
+      "persian_translate": "جذابیت",
+      "sentence": "The movie has a lot of appeal for young people.",
+      "persian_sentence_translate": "این فیلم برای جوانان جذابیت زیادی دارد."
+    },
+    {
+      "id": 194,
+      "word": "addict",
+      "persian_translate": "معتاد",
+      "sentence": "He is a drug addict.",
+      "persian_sentence_translate": "او معتاد به مواد مخدر است."
+    },
+    {
+      "id": 195,
+      "word": "wary",
+      "persian_translate": "محتاط",
+      "sentence": "Be wary of strangers.",
+      "persian_sentence_translate": "مراقب غریبه ها باشید."
+    },
+    {
+      "id": 196,
+      "word": "aware",
+      "persian_translate": "آگاه",
+      "sentence": "Are you aware of the risks?",
+      "persian_sentence_translate": "آیا از خطرات آگاه هستید؟"
+    },
+    {
+      "id": 197,
+      "word": "misfortune",
+      "persian_translate": "بدشانسی",
+      "sentence": "He had the misfortune to lose his job.",
+      "persian_sentence_translate": "او بدشانسی آورد که شغلش را از دست داد."
+    },
+    {
+      "id": 198,
+      "word": "avoid",
+      "persian_translate": "اجتناب کردن",
+      "sentence": "You should avoid eating fatty foods.",
+      "persian_sentence_translate": "شما باید از خوردن غذاهای چرب اجتناب کنید."
+    },
+    {
+      "id": 199,
+      "word": "wretched",
+      "persian_translate": "بدبخت",
+      "sentence": "I feel wretched about what happened.",
+      "persian_sentence_translate": "من از اتفاقی که افتاد احساس بدبختی می کنم."
+    },
+    {
+      "id": 200,
+      "word": "keg",
+      "persian_translate": "بشکه",
+      "sentence": "They bought a keg of beer for the party.",
+      "persian_sentence_translate": "آنها برای مهمانی یک بشکه آبجو خریدند."
+    },
+    {
+      "id": 201,
+      "word": "nourish",
+      "persian_translate": "تغذیه کردن",
+      "sentence": "The soil is rich and nourishes the plants.",
+      "persian_sentence_translate": "خاک غنی است و گیاهان را تغذیه می کند."
+    },
+    {
+      "id": 202,
+      "word": "harsh",
+      "persian_translate": "خشن",
+      "sentence": "The winters are harsh in this part of the country.",
+      "persian_sentence_translate": "زمستان ها در این قسمت از کشور خشن است."
+    },
+    {
+      "id": 203,
+      "word": "quantity",
+      "persian_translate": "مقدار",
+      "sentence": "We need a large quantity of food for the party.",
+      "persian_sentence_translate": "ما برای مهمانی به مقدار زیادی غذا نیاز داریم."
+    },
+    {
+      "id": 204,
+      "word": "opt",
+      "persian_translate": "انتخاب کردن",
+      "sentence": "I opted to stay at home instead of going to the party.",
+      "persian_sentence_translate": "من به جای رفتن به مهمانی تصمیم گرفتم در خانه بمانم."
+    },
+    {
+      "id": 205,
+      "word": "tragedy",
+      "persian_translate": "تراژدی",
+      "sentence": "The plane crash was a terrible tragedy.",
+      "persian_sentence_translate": "سقوط هواپیما یک تراژدی وحشتناک بود."
+    },
+    {
+      "id": 206,
+      "word": "pedestrian",
+      "persian_translate": "عابر پیاده",
+      "sentence": "The car hit a pedestrian.",
+      "persian_sentence_translate": "ماشین به یک عابر پیاده زد."
+    },
+    {
+      "id": 207,
+      "word": "glance",
+      "persian_translate": "نگاهی سریع",
+      "sentence": "He gave her a quick glance.",
+      "persian_sentence_translate": "او نگاهی سریع به او انداخت."
+    },
+    {
+      "id": 208,
+      "word": "budget",
+      "persian_translate": "بودجه",
+      "sentence": "We need to stick to our budget.",
+      "persian_sentence_translate": "ما باید به بودجه خود پایبند باشیم."
+    },
+    {
+      "id": 209,
+      "word": "nimble",
+      "persian_translate": "چابک",
+      "sentence": "He is very nimble on his feet.",
+      "persian_sentence_translate": "او روی پاهایش بسیار چابک است."
+    },
+    {
+      "id": 210,
+      "word": "manipulate",
+      "persian_translate": "دستکاری کردن",
+      "sentence": "He tried to manipulate the results of the election.",
+      "persian_sentence_translate": "او سعی کرد نتایج انتخابات را دستکاری کند."
+    },
+    {
+      "id": 211,
+      "word": "reckless",
+      "persian_translate": "بی پروا",
+      "sentence": "He is a reckless driver.",
+      "persian_sentence_translate": "او یک راننده بی پروا است."
+    },
+    {
+      "id": 212,
+      "word": "horrid",
+      "persian_translate": "وحشتناک",
+      "sentence": "What a horrid smell!",
+      "persian_sentence_translate": "چه بوی وحشتناکی!"
+    },
+    {
+      "id": 213,
+      "word": "rave",
+      "persian_translate": "هذیان گفتن",
+      "sentence": "He was raving about the new movie.",
+      "persian_sentence_translate": "او در مورد فیلم جدید هذیان می گفت."
+    },
+    {
+      "id": 214,
+      "word": "economical",
+      "persian_translate": "اقتصادی",
+      "sentence": "This car is very economical on fuel.",
+      "persian_sentence_translate": "این ماشین در مصرف سوخت بسیار اقتصادی است."
+    },
+    {
+      "id": 215,
+      "word": "lubricate",
+      "persian_translate": "روغن کاری کردن",
+      "sentence": "You need to lubricate the chain on your bike.",
+      "persian_sentence_translate": "شما باید زنجیر دوچرخه خود را روغن کاری کنید."
+    },
+    {
+      "id": 216,
+      "word": "ingenious",
+      "persian_translate": "مبتکرانه",
+      "sentence": "He came up with an ingenious solution to the problem.",
+      "persian_sentence_translate": "او راه حل مبتکرانه ای برای این مشکل ارائه داد."
+    },
+    {
+      "id": 217,
+      "word": "harvest",
+      "persian_translate": "برداشت محصول",
+      "sentence": "It's time to harvest the crops.",
+      "persian_sentence_translate": "وقت برداشت محصول است."
+    },
+    {
+      "id": 218,
+      "word": "abundant",
+      "persian_translate": "فراوان",
+      "sentence": "There is an abundant supply of food.",
+      "persian_sentence_translate": "عرضه فراوانی از غذا وجود دارد."
+    },
+    {
+      "id": 219,
+      "word": "uneasy",
+      "persian_translate": "ناراحت",
+      "sentence": "I felt uneasy about leaving the children alone.",
+      "persian_sentence_translate": "من از تنها گذاشتن بچه ها احساس ناراحتی می کردم."
+    },
+    {
+      "id": 220,
+      "word": "calculate",
+      "persian_translate": "محاسبه کردن",
+      "sentence": "I need to calculate the cost of the trip.",
+      "persian_sentence_translate": "من باید هزینه سفر را محاسبه کنم."
+    },
+    {
+      "id": 221,
+      "word": "absorb",
+      "persian_translate": "جذب کردن",
+      "sentence": "The sponge absorbed the water.",
+      "persian_sentence_translate": "اسفنج آب را جذب کرد."
+    },
+    {
+      "id": 222,
+      "word": "estimate",
+      "persian_translate": "تخمین زدن",
+      "sentence": "I estimate that the project will take two weeks to complete.",
+      "persian_sentence_translate": "من تخمین می زنم که تکمیل این پروژه دو هفته طول بکشد."
+    },
+    {
+      "id": 223,
+      "word": "morsel",
+      "persian_translate": "لقمه",
+      "sentence": "He ate every morsel of food on his plate.",
+      "persian_sentence_translate": "او هر لقمه غذا را در بشقابش خورد."
+    },
+    {
+      "id": 224,
+      "word": "quota",
+      "persian_translate": "سهمیه",
+      "sentence": "Each country has a quota for imports.",
+      "persian_sentence_translate": "هر کشور برای واردات سهمیه دارد."
+    },
+    {
+      "id": 225,
+      "word": "threat",
+      "persian_translate": "تهدید",
+      "sentence": "The company is facing a threat from its competitors.",
+      "persian_sentence_translate": "این شرکت با تهدیدی از سوی رقبای خود روبرو است."
+    },
+    {
+      "id": 226,
+      "word": "ban",
+      "persian_translate": "ممنوعیت",
+      "sentence": "There is a ban on smoking in public places.",
+      "persian_sentence_translate": "ممنوعیت سیگار کشیدن در اماکن عمومی وجود دارد."
+    },
+    {
+      "id": 227,
+      "word": "panic",
+      "persian_translate": "وحشت",
+      "sentence": "There was a panic when the fire alarm went off.",
+      "persian_sentence_translate": "وقتی زنگ خطر آتش سوزی به صدا درآمد، وحشت ایجاد شد."
+    },
+    {
+      "id": 228,
+      "word": "appropriate",
+      "persian_translate": "مناسب",
+      "sentence": "His comments were not appropriate for the occasion.",
+      "persian_sentence_translate": "نظرات او برای این مناسبت مناسب نبود."
+    },
+    {
+      "id": 229,
+      "word": "emerge",
+      "persian_translate": "ظاهر شدن",
+      "sentence": "The sun emerged from behind the clouds.",
+      "persian_sentence_translate": "خورشید از پشت ابرها ظاهر شد."
+    },
+    {
+      "id": 230,
+      "word": "jagged",
+      "persian_translate": "دندانه دار",
+      "sentence": "The rocks were jagged and sharp.",
+      "persian_sentence_translate": "سنگ ها دندانه دار و تیز بودند."
+    },
+    {
+      "id": 231,
+      "word": "linger",
+      "persian_translate": "معطل کردن",
+      "sentence": "Don't linger, we're already late.",
+      "persian_sentence_translate": "معطل نکن، ما همین الان هم دیر کرده ایم."
+    },
+    {
+      "id": 232,
+      "word": "ambush",
+      "persian_translate": "کمین",
+      "sentence": "The soldiers were ambushed by the enemy.",
+      "persian_sentence_translate": "سربازان توسط دشمن در کمین قرار گرفتند."
+    },
+    {
+      "id": 233,
+      "word": "crafty",
+      "persian_translate": "حیله گر",
+      "sentence": "He is a crafty old fox.",
+      "persian_sentence_translate": "او یک روباه پیر حیله گر است."
+    },
+    {
+      "id": 234,
+      "word": "defiant",
+      "persian_translate": "مخالف",
+      "sentence": "The defiant prisoner refused to obey the guards.",
+      "persian_sentence_translate": "زندانی مخالف از اطاعت از نگهبانان خودداری کرد."
+    },
+    {
+      "id": 235,
+      "word": "vigor",
+      "persian_translate": "نیرو",
+      "sentence": "He is full of vigor and enthusiasm.",
+      "persian_sentence_translate": "او سرشار از نیرو و اشتیاق است."
+    },
+    {
+      "id": 236,
+      "word": "perish",
+      "persian_translate": "هلاک شدن",
+      "sentence": "Many people perished in the earthquake.",
+      "persian_sentence_translate": "بسیاری از مردم در زلزله هلاک شدند."
+    },
+    {
+      "id": 237,
+      "word": "fragile",
+      "persian_translate": "شکننده",
+      "sentence": "The glass is very fragile.",
+      "persian_sentence_translate": "شیشه بسیار شکننده است."
+    },
+    {
+      "id": 238,
+      "word": "captive",
+      "persian_translate": "اسیر",
+      "sentence": "The captive was held in a small cell.",
+      "persian_sentence_translate": "اسیر در یک سلول کوچک نگهداری می شد."
+    },
+    {
+      "id": 239,
+      "word": "prosper",
+      "persian_translate": "رونق یافتن",
+      "sentence": "The business is prospering.",
+      "persian_sentence_translate": "کسب و کار در حال رونق است."
+    },
+    {
+      "id": 240,
+      "word": "devour",
+      "persian_translate": "بلعیدن",
+      "sentence": "The hungry lion devoured the deer.",
+      "persian_sentence_translate": "شیر گرسنه گوزن را بلعید."
+    },
+    {
+      "id": 241,
+      "word": "plea",
+      "persian_translate": "درخواست",
+      "sentence": "He made a plea for help.",
+      "persian_sentence_translate": "او درخواست کمک کرد."
+    },
+    {
+      "id": 242,
+      "word": "weary",
+      "persian_translate": "خسته",
+      "sentence": "I am weary of all this work.",
+      "persian_sentence_translate": "من از این همه کار خسته شده ام."
+    },
+    {
+      "id": 243,
+      "word": "collide",
+      "persian_translate": "برخورد کردن",
+      "sentence": "The two cars collided at the intersection.",
+      "persian_sentence_translate": "دو ماشین در تقاطع با هم برخورد کردند."
+    },
+    {
+      "id": 244,
+      "word": "confirm",
+      "persian_translate": "تایید کردن",
+      "sentence": "Please confirm your reservation.",
+      "persian_sentence_translate": "لطفاً رزرو خود را تأیید کنید."
+    },
+    {
+      "id": 245,
+      "word": "verify",
+      "persian_translate": "تایید کردن",
+      "sentence": "I need to verify your identity.",
+      "persian_sentence_translate": "من باید هویت شما را تأیید کنم."
+    },
+    {
+      "id": 246,
+      "word": "anticipate",
+      "persian_translate": "پیش بینی کردن",
+      "sentence": "I anticipate that the project will be completed on time.",
+      "persian_sentence_translate": "من پیش بینی می کنم که پروژه به موقع تکمیل شود."
+    },
+    {
+      "id": 247,
+      "word": "dilemma",
+      "persian_translate": "دوراهی",
+      "sentence": "I'm in a dilemma about what to do.",
+      "persian_sentence_translate": "من در دوراهی هستم که چه کار کنم."
+    },
+    {
+      "id": 248,
+      "word": "detour",
+      "persian_translate": "مسیر انحرافی",
+      "sentence": "We had to take a detour because the road was closed.",
+      "persian_sentence_translate": "ما به دلیل بسته بودن جاده مجبور شدیم از یک مسیر انحرافی برویم."
+    },
+    {
+      "id": 249,
+      "word": "merit",
+      "persian_translate": "شایستگی",
+      "sentence": "She was promoted on the basis of her merit.",
+      "persian_sentence_translate": "او بر اساس شایستگی خود ترفیع گرفت."
+    },
+    {
+      "id": 250,
+      "word": "transmit",
+      "persian_translate": "انتقال دادن",
+      "sentence": "The information is transmitted by satellite.",
+      "persian_sentence_translate": "اطلاعات از طریق ماهواره منتقل می شود."
+    },
+    {
+      "id": 251,
+      "word": "relieve",
+      "persian_translate": "تسکین دادن",
+      "sentence": "This medicine will relieve your pain.",
+      "persian_sentence_translate": "این دارو درد شما را تسکین می دهد."
+    },
+    {
+      "id": 252,
+      "word": "baffle",
+      "persian_translate": "گیج کردن",
+      "sentence": "I was baffled by his strange behavior.",
+      "persian_sentence_translate": "من از رفتار عجیب او گیج شده بودم."
+    },
+    {
+      "id": 253,
+      "word": "warden",
+      "persian_translate": "نگهبان",
+      "sentence": "The warden of the prison is a very strict man.",
+      "persian_sentence_translate": "نگهبان زندان مرد بسیار سختگیری است."
+    },
+    {
+      "id": 254,
+      "word": "acknowledge",
+      "persian_translate": "اذعان کردن",
+      "sentence": "He acknowledged that he had made a mistake.",
+      "persian_sentence_translate": "او اذعان کرد که اشتباه کرده است."
+    },
+    {
+      "id": 255,
+      "word": "justice",
+      "persian_translate": "عدالت",
+      "sentence": "The victim's family is seeking justice.",
+      "persian_sentence_translate": "خانواده قربانی به دنبال عدالت هستند."
+    },
+    {
+      "id": 256,
+      "word": "delinquent",
+      "persian_translate": "بزهکار",
+      "sentence": "He is a juvenile delinquent.",
+      "persian_sentence_translate": "او یک بزهکار نوجوان است."
+    },
+    {
+      "id": 257,
+      "word": "reject",
+      "persian_translate": "رد کردن",
+      "sentence": "He rejected my offer of help.",
+      "persian_sentence_translate": "او پیشنهاد کمک من را رد کرد."
+    },
+    {
+      "id": 258,
+      "word": "deprive",
+      "persian_translate": "محروم کردن",
+      "sentence": "The prisoners were deprived of food and water.",
+      "persian_sentence_translate": "زندانیان از آب و غذا محروم بودند."
+    },
+    {
+      "id": 259,
+      "word": "spouse",
+      "persian_translate": "همسر",
+      "sentence": "He lives with his spouse and two children.",
+      "persian_sentence_translate": "او با همسر و دو فرزندش زندگی می کند."
+    },
+    {
+      "id": 260,
+      "word": "vocation",
+      "persian_translate": "شغل",
+      "sentence": "He considers teaching to be his vocation.",
+      "persian_sentence_translate": "او تدریس را شغل خود می داند."
+    },
+    {
+      "id": 261,
+      "word": "unstable",
+      "persian_translate": "ناپایدار",
+      "sentence": "The political situation in the country is unstable.",
+      "persian_sentence_translate": "وضعیت سیاسی در کشور ناپایدار است."
+    },
+    {
+      "id": 262,
+      "word": "homicide",
+      "persian_translate": "قتل",
+      "sentence": "He was convicted of homicide.",
+      "persian_sentence_translate": "او به قتل محکوم شد."
+    },
+    {
+      "id": 263,
+      "word": "penalize",
+      "persian_translate": "جریمه کردن",
+      "sentence": "He was penalized for his mistake.",
+      "persian_sentence_translate": "او به خاطر اشتباهش جریمه شد."
+    },
+    {
+      "id": 264,
+      "word": "beneficiary",
+      "persian_translate": "ذینفع",
+      "sentence": "She is the beneficiary of her husband's will.",
+      "persian_sentence_translate": "او ذینفع وصیت نامه شوهرش است."
+    },
+    {
+      "id": 265,
+      "word": "reptile",
+      "persian_translate": "خزنده",
+      "sentence": "Snakes and lizards are reptiles.",
+      "persian_sentence_translate": "مارها و مارمولک ها خزندگان هستند."
+    },
+    {
+      "id": 266,
+      "word": "rarely",
+      "persian_translate": "به ندرت",
+      "sentence": "I rarely see him these days.",
+      "persian_sentence_translate": "این روزها به ندرت او را می بینم."
+    },
+    {
+      "id": 267,
+      "word": "forbid",
+      "persian_translate": "منع کردن",
+      "sentence": "I forbid you to go.",
+      "persian_sentence_translate": "من شما را از رفتن منع می کنم."
+    },
+    {
+      "id": 268,
+      "word": "logical",
+      "persian_translate": "منطقی",
+      "sentence": "There is a logical explanation for everything.",
+      "persian_sentence_translate": "برای همه چیز یک توضیح منطقی وجود دارد."
+    },
+    {
+      "id": 269,
+      "word": "exhibit",
+      "persian_translate": "نمایش دادن",
+      "sentence": "The museum is exhibiting a collection of ancient artifacts.",
+      "persian_sentence_translate": "این موزه مجموعه ای از آثار باستانی را به نمایش می گذارد."
+    },
+    {
+      "id": 270,
+      "word": "proceed",
+      "persian_translate": "ادامه دادن",
+      "sentence": "Please proceed with your story.",
+      "persian_sentence_translate": "لطفاً داستان خود را ادامه دهید."
+    },
+    {
+      "id": 271,
+      "word": "precaution",
+      "persian_translate": "اقدام احتیاطی",
+      "sentence": "You should take precautions against fire.",
+      "persian_sentence_translate": "شما باید اقدامات احتیاطی در برابر آتش سوزی را انجام دهید."
+    },
+    {
+      "id": 272,
+      "word": "extract",
+      "persian_translate": "استخراج کردن",
+      "sentence": "They are extracting oil from the ground.",
+      "persian_sentence_translate": "آنها در حال استخراج نفت از زمین هستند."
+    },
+    {
+      "id": 273,
+      "word": "prior",
+      "persian_translate": "قبلی",
+      "sentence": "I have a prior engagement.",
+      "persian_sentence_translate": "من یک قرار قبلی دارم."
+    },
+    {
+      "id": 274,
+      "word": "embrace",
+      "persian_translate": "در آغوش گرفتن",
+      "sentence": "They embraced each other warmly.",
+      "persian_sentence_translate": "آنها یکدیگر را به گرمی در آغوش گرفتند."
+    },
+    {
+      "id": 275,
+      "word": "valiant",
+      "persian_translate": "شجاع",
+      "sentence": "The valiant soldier saved the lives of his comrades.",
+      "persian_sentence_translate": "سرباز شجاع جان همرزمان خود را نجات داد."
+    },
+    {
+      "id": 276,
+      "word": "partial",
+      "persian_translate": "جزئی",
+      "sentence": "I have only a partial understanding of the problem.",
+      "persian_sentence_translate": "من فقط درک جزئی از مشکل دارم."
+    },
+    {
+      "id": 277,
+      "word": "fierce",
+      "persian_translate": "وحشی",
+      "sentence": "A fierce dog guarded the house.",
+      "persian_sentence_translate": "یک سگ وحشی از خانه محافظت می کرد."
+    },
+    {
+      "id": 278,
+      "word": "detest",
+      "persian_translate": "متنفر بودن",
+      "sentence": "I detest liars.",
+      "persian_sentence_translate": "من از دروغگوها متنفرم."
+    },
+    {
+      "id": 279,
+      "word": "sneer",
+      "persian_translate": "پوزخند زدن",
+      "sentence": "He sneered at my suggestion.",
+      "persian_sentence_translate": "او به پیشنهاد من پوزخند زد."
+    },
+    {
+      "id": 280,
+      "word": "scowl",
+      "persian_translate": "اخم کردن",
+      "sentence": "She scowled at me when I told her the news.",
+      "persian_sentence_translate": "وقتی خبر را به او گفتم، به من اخم کرد."
+    },
+    {
+      "id": 281,
+      "word": "encourage",
+      "persian_translate": "تشویق کردن",
+      "sentence": "My parents encouraged me to go to college.",
+      "persian_sentence_translate": "والدینم مرا تشویق کردند که به دانشگاه بروم."
+    },
+    {
+      "id": 282,
+      "word": "consider",
+      "persian_translate": "در نظر گرفتن",
+      "sentence": "I will consider your offer.",
+      "persian_sentence_translate": "من پیشنهاد شما را در نظر خواهم گرفت."
+    },
+    {
+      "id": 283,
+      "word": "vermin",
+      "persian_translate": "حشرات موذی",
+      "sentence": "The house was infested with vermin.",
+      "persian_sentence_translate": "خانه پر از حشرات موذی بود."
+    },
+    {
+      "id": 284,
+      "word": "wail",
+      "persian_translate": "شیون کردن",
+      "sentence": "The baby started to wail.",
+      "persian_sentence_translate": "نوزاد شروع به شیون کرد."
+    },
+    {
+      "id": 285,
+      "word": "symbol",
+      "persian_translate": "نماد",
+      "sentence": "The dove is a symbol of peace.",
+      "persian_sentence_translate": "کبوتر نماد صلح است."
+    },
+    {
+      "id": 286,
+      "word": "authority",
+      "persian_translate": "اختیار",
+      "sentence": "The police have the authority to arrest people.",
+      "persian_sentence_translate": "پلیس اختیار دستگیری مردم را دارد."
+    },
+    {
+      "id": 287,
+      "word": "neutral",
+      "persian_translate": "بی طرف",
+      "sentence": "He remained neutral in the argument.",
+      "persian_sentence_translate": "او در این بحث بی طرف ماند."
+    },
+    {
+      "id": 288,
+      "word": "trifle",
+      "persian_translate": "چیز جزئی",
+      "sentence": "It's just a trifle, don't worry about it.",
+      "persian_sentence_translate": "این فقط یک چیز جزئی است، نگران نباش."
+    },
+    {
+      "id": 289,
+      "word": "architect",
+      "persian_translate": "معمار",
+      "sentence": "The architect designed the new building.",
+      "persian_sentence_translate": "معمار ساختمان جدید را طراحی کرد."
+    },
+    {
+      "id": 290,
+      "word": "matrimony",
+      "persian_translate": "ازدواج",
+      "sentence": "They were united in matrimony.",
+      "persian_sentence_translate": "آنها در ازدواج با هم متحد شدند."
+    },
+    {
+      "id": 291,
+      "word": "baggage",
+      "persian_translate": "چمدان",
+      "sentence": "I have a lot of baggage.",
+      "persian_sentence_translate": "من چمدان های زیادی دارم."
+    },
+    {
+      "id": 292,
+      "word": "squander",
+      "persian_translate": "هدر دادن",
+      "sentence": "He squandered all his money on gambling.",
+      "persian_sentence_translate": "او تمام پولش را صرف قمار کرد."
+    },
+    {
+      "id": 293,
+      "word": "abroad",
+      "persian_translate": "خارج از کشور",
+      "sentence": "He is traveling abroad.",
+      "persian_sentence_translate": "او در حال سفر به خارج از کشور است."
+    },
+    {
+      "id": 294,
+      "word": "fugitive",
+      "persian_translate": "فراری",
+      "sentence": "The police are searching for the fugitive.",
+      "persian_sentence_translate": "پلیس در جستجوی فراری است."
+    },
+    {
+      "id": 295,
+      "word": "calamity",
+      "persian_translate": "فاجعه",
+      "sentence": "The earthquake was a great calamity.",
+      "persian_sentence_translate": "زلزله یک فاجعه بزرگ بود."
+    },
+    {
+      "id": 296,
+      "word": "pauper",
+      "persian_translate": "فقیر",
+      "sentence": "He died a pauper.",
+      "persian_sentence_translate": "او در فقر مرد."
+    },
+    {
+      "id": 297,
+      "word": "envy",
+      "persian_translate": "حسادت",
+      "sentence": "I envy her success.",
+      "persian_sentence_translate": "من به موفقیت او حسادت می کنم."
+    },
+    {
+      "id": 298,
+      "word": "collapse",
+      "persian_translate": "فرو ریختن",
+      "sentence": "The building collapsed in the earthquake.",
+      "persian_sentence_translate": "ساختمان در زلزله فرو ریخت."
+    },
+    {
+      "id": 299,
+      "word": "prosecute",
+      "persian_translate": "تحت پیگرد قانونی قرار دادن",
+      "sentence": "The company was prosecuted for violating safety regulations.",
+      "persian_sentence_translate": "این شرکت به دلیل نقض مقررات ایمنی تحت پیگرد قانونی قرار گرفت."
+    },
+    {
+      "id": 300,
+      "word": "bigamy",
+      "persian_translate": "دو همسری",
+      "sentence": "Bigamy is illegal in this country.",
+      "persian_sentence_translate": "دو همسری در این کشور غیرقانونی است."
+    },
+    {
+      "id": 301,
+      "word": "possible",
+      "persian_translate": "ممکن",
+      "sentence": "Is it possible to finish the work by tomorrow?",
+      "persian_sentence_translate": "آیا امکان دارد کار را تا فردا تمام کنیم؟"
+    },
+    {
+      "id": 302,
+      "word": "compel",
+      "persian_translate": "مجبور کردن",
+      "sentence": "He was compelled to resign.",
+      "persian_sentence_translate": "او مجبور به استعفا شد."
+    },
+    {
+      "id": 303,
+      "word": "awkward",
+      "persian_translate": "دست و پا چلفتی",
+      "sentence": "I felt awkward at the party.",
+      "persian_sentence_translate": "من در مهمانی احساس دست و پا چلفتی می کردم."
+    },
+    {
+      "id": 304,
+      "word": "venture",
+      "persian_translate": "ریسک کردن",
+      "sentence": "He ventured into the unknown.",
+      "persian_sentence_translate": "او به سوی ناشناخته ها ریسک کرد."
+    },
+    {
+      "id": 305,
+      "word": "awesome",
+      "persian_translate": "عالی",
+      "sentence": "That was an awesome movie.",
+      "persian_sentence_translate": "آن یک فیلم عالی بود."
+    },
+    {
+      "id": 306,
+      "word": "guide",
+      "persian_translate": "راهنما",
+      "sentence": "The guide showed us around the city.",
+      "persian_sentence_translate": "راهنما شهر را به ما نشان داد."
+    },
+    {
+      "id": 307,
+      "word": "quench",
+      "persian_translate": "فرونشاندن",
+      "sentence": "I quenched my thirst with a glass of water.",
+      "persian_sentence_translate": "من تشنگی خود را با یک لیوان آب فرونشاندم."
+    },
+    {
+      "id": 308,
+      "word": "betray",
+      "persian_translate": "خیانت کردن",
+      "sentence": "He betrayed his country.",
+      "persian_sentence_translate": "او به کشورش خیانت کرد."
+    },
+    {
+      "id": 309,
+      "word": "utter",
+      "persian_translate": "بر زبان آوردن",
+      "sentence": "He didn't utter a single word.",
+      "persian_sentence_translate": "او حتی یک کلمه هم بر زبان نیاورد."
+    },
+    {
+      "id": 310,
+      "word": "pacify",
+      "persian_translate": "آرام کردن",
+      "sentence": "She tried to pacify the crying baby.",
+      "persian_sentence_translate": "او سعی کرد نوزاد گریان را آرام کند."
+    },
+    {
+      "id": 311,
+      "word": "respond",
+      "persian_translate": "پاسخ دادن",
+      "sentence": "Please respond to my email.",
+      "persian_sentence_translate": "لطفاً به ایمیل من پاسخ دهید."
+    },
+    {
+      "id": 312,
+      "word": "beckon",
+      "persian_translate": "اشاره کردن",
+      "sentence": "He beckoned me to come closer.",
+      "persian_sentence_translate": "او به من اشاره کرد که نزدیکتر بیایم."
+    },
+    {
+      "id": 313,
+      "word": "despite",
+      "persian_translate": "علیرغم",
+      "sentence": "Despite the rain, we went for a walk.",
+      "persian_sentence_translate": "علیرغم باران، ما به پیاده روی رفتیم."
+    },
+    {
+      "id": 314,
+      "word": "disrupt",
+      "persian_translate": "مختل کردن",
+      "sentence": "The protest disrupted traffic.",
+      "persian_sentence_translate": "این اعتراض ترافیک را مختل کرد."
+    },
+    {
+      "id": 315,
+      "word": "rash",
+      "persian_translate": "عجولانه",
+      "sentence": "He made a rash decision.",
+      "persian_sentence_translate": "او یک تصمیم عجولانه گرفت."
+    },
+    {
+      "id": 316,
+      "word": "rapid",
+      "persian_translate": "سریع",
+      "sentence": "The car was traveling at a rapid speed.",
+      "persian_sentence_translate": "ماشین با سرعت زیادی در حال حرکت بود."
+    },
+    {
+      "id": 317,
+      "word": "exhaust",
+      "persian_translate": "خسته کردن",
+      "sentence": "The long walk exhausted me.",
+      "persian_sentence_translate": "پیاده روی طولانی مرا خسته کرد."
+    },
+    {
+      "id": 318,
+      "word": "severity",
+      "persian_translate": "شدت",
+      "sentence": "The severity of the storm was unexpected.",
+      "persian_sentence_translate": "شدت طوفان غیرمنتظره بود."
+    },
+    {
+      "id": 319,
+      "word": "feeble",
+      "persian_translate": "ضعیف",
+      "sentence": "He is old and feeble.",
+      "persian_sentence_translate": "او پیر و ضعیف است."
+    },
+    {
+      "id": 320,
+      "word": "unite",
+      "persian_translate": "متحد شدن",
+      "sentence": "The two countries united to form a single nation.",
+      "persian_sentence_translate": "این دو کشور برای تشکیل یک ملت واحد با هم متحد شدند."
+    },
+    {
+      "id": 321,
+      "word": "cease",
+      "persian_translate": "متوقف کردن",
+      "sentence": "The rain ceased and the sun came out.",
+      "persian_sentence_translate": "باران متوقف شد و خورشید بیرون آمد."
+    },
+    {
+      "id": 322,
+      "word": "thrifty",
+      "persian_translate": "صرفه جو",
+      "sentence": "He is a thrifty man who saves his money.",
+      "persian_sentence_translate": "او مردی صرفه جو است که پولش را پس انداز می کند."
+    },
+    {
+      "id": 323,
+      "word": "miserly",
+      "persian_translate": "خسیس",
+      "sentence": "He is a miserly old man.",
+      "persian_sentence_translate": "او یک پیرمرد خسیس است."
+    },
+    {
+      "id": 324,
+      "word": "monarch",
+      "persian_translate": "پادشاه",
+      "sentence": "The monarch is the head of state.",
+      "persian_sentence_translate": "پادشاه رئیس دولت است."
+    },
+    {
+      "id": 325,
+      "word": "outlaw",
+      "persian_translate": "قانون شکن",
+      "sentence": "Robin Hood was an outlaw.",
+      "persian_sentence_translate": "رابین هود یک قانون شکن بود."
+    },
+    {
+      "id": 326,
+      "word": "promote",
+      "persian_translate": "ترفیع دادن",
+      "sentence": "She was promoted to manager.",
+      "persian_sentence_translate": "او به سمت مدیر ترفیع گرفت."
+    },
+    {
+      "id": 327,
+      "word": "undernourished",
+      "persian_translate": "دچار سوء تغذیه",
+      "sentence": "The child was undernourished.",
+      "persian_sentence_translate": "کودک دچار سوء تغذیه بود."
+    },
+    {
+      "id": 328,
+      "word": "illustrate",
+      "persian_translate": "توضیح دادن",
+      "sentence": "The teacher used a diagram to illustrate her point.",
+      "persian_sentence_translate": "معلم برای توضیح نکته خود از یک نمودار استفاده کرد."
+    },
+    {
+      "id": 329,
+      "word": "disclose",
+      "persian_translate": "فاش کردن",
+      "sentence": "He refused to disclose his source.",
+      "persian_sentence_translate": "او از فاش کردن منبع خود خودداری کرد."
+    },
+    {
+      "id": 330,
+      "word": "excessive",
+      "persian_translate": "بیش از حد",
+      "sentence": "He was driving at an excessive speed.",
+      "persian_sentence_translate": "او با سرعت بیش از حد رانندگی می کرد."
+    },
+    {
+      "id": 331,
+      "word": "disaster",
+      "persian_translate": "فاجعه",
+      "sentence": "The earthquake was a terrible disaster.",
+      "persian_sentence_translate": "زلزله یک فاجعه وحشتناک بود."
+    },
+    {
+      "id": 332,
+      "word": "censor",
+      "persian_translate": "سانسور کردن",
+      "sentence": "The government censored the news.",
+      "persian_sentence_translate": "دولت اخبار را سانسور کرد."
+    },
+    {
+      "id": 333,
+      "word": "culprit",
+      "persian_translate": "مقصر",
+      "sentence": "The police are looking for the culprit.",
+      "persian_sentence_translate": "پلیس به دنبال مقصر است."
+    },
+    {
+      "id": 334,
+      "word": "juvenile",
+      "persian_translate": "نوجوان",
+      "sentence": "He is a juvenile delinquent.",
+      "persian_sentence_translate": "او یک بزهکار نوجوان است."
+    },
+    {
+      "id": 335,
+      "word": "bait",
+      "persian_translate": "طعمه",
+      "sentence": "He used a worm as bait to catch the fish.",
+      "persian_sentence_translate": "او از یک کرم به عنوان طعمه برای گرفتن ماهی استفاده کرد."
+    },
+    {
+      "id": 336,
+      "word": "insist",
+      "persian_translate": "اصرار کردن",
+      "sentence": "He insisted on paying for the meal.",
+      "persian_sentence_translate": "او اصرار داشت که پول غذا را بپردازد."
+    },
+    {
+      "id": 337,
+      "word": "toil",
+      "persian_translate": "زحمت کشیدن",
+      "sentence": "He toiled in the fields all day.",
+      "persian_sentence_translate": "او تمام روز در مزارع زحمت می کشید."
+    },
+    {
+      "id": 338,
+      "word": "blunder",
+      "persian_translate": "اشتباه بزرگ",
+      "sentence": "He made a terrible blunder.",
+      "persian_sentence_translate": "او اشتباه بزرگی مرتکب شد."
+    },
+    {
+      "id": 339,
+      "word": "daze",
+      "persian_translate": "گیج کردن",
+      "sentence": "I was in a daze after the accident.",
+      "persian_sentence_translate": "من بعد از تصادف گیج بودم."
+    },
+    {
+      "id": 340,
+      "word": "mourn",
+      "persian_translate": "سوگواری کردن",
+      "sentence": "She is still mourning the death of her husband.",
+      "persian_sentence_translate": "او هنوز در سوگ مرگ شوهرش است."
+    },
+    {
+      "id": 341,
+      "word": "subside",
+      "persian_translate": "فروکش کردن",
+      "sentence": "The storm began to subside.",
+      "persian_sentence_translate": "طوفان شروع به فروکش کرد."
+    },
+    {
+      "id": 342,
+      "word": "maim",
+      "persian_translate": "معلول کردن",
+      "sentence": "He was maimed in the accident.",
+      "persian_sentence_translate": "او در این حادثه معلول شد."
+    },
+    {
+      "id": 343,
+      "word": "comprehend",
+      "persian_translate": "درک کردن",
+      "sentence": "I can't comprehend why he would do such a thing.",
+      "persian_sentence_translate": "من نمی توانم درک کنم که چرا او چنین کاری را انجام می دهد."
+    },
+    {
+      "id": 344,
+      "word": "commend",
+      "persian_translate": "تحسین کردن",
+      "sentence": "I commend you for your bravery.",
+      "persian_sentence_translate": "من شما را به خاطر شجاعتتان تحسین می کنم."
+    },
+    {
+      "id": 345,
+      "word": "final",
+      "persian_translate": "نهایی",
+      "sentence": "This is the final decision.",
+      "persian_sentence_translate": "این تصمیم نهایی است."
+    },
+    {
+      "id": 346,
+      "word": "exempt",
+      "persian_translate": "معاف",
+      "sentence": "He is exempt from military service.",
+      "persian_sentence_translate": "او از خدمت سربازی معاف است."
+    },
+    {
+      "id": 347,
+      "word": "vain",
+      "persian_translate": "مغرور",
+      "sentence": "She is very vain about her appearance.",
+      "persian_sentence_translate": "او در مورد ظاهرش بسیار مغرور است."
+    },
+    {
+      "id": 348,
+      "word": "repetition",
+      "persian_translate": "تکرار",
+      "sentence": "Repetition is the key to learning.",
+      "persian_sentence_translate": "تکرار کلید یادگیری است."
+    },
+    {
+      "id": 349,
+      "word": "depict",
+      "persian_translate": "به تصویر کشیدن",
+      "sentence": "The painting depicts a scene from the Bible.",
+      "persian_sentence_translate": "این نقاشی صحنه ای از کتاب مقدس را به تصویر می کشد."
+    },
+    {
+      "id": 350,
+      "word": "mortal",
+      "persian_translate": "فانی",
+      "sentence": "All men are mortal.",
+      "persian_sentence_translate": "همه انسان ها فانی هستند."
+    },
+    {
+      "id": 351,
+      "word": "novel",
+      "persian_translate": "رمان",
+      "sentence": "I'm reading a novel by Charles Dickens.",
+      "persian_sentence_translate": "من در حال خواندن رمانی از چارلز دیکنز هستم."
+    },
+    {
+      "id": 352,
+      "word": "occupant",
+      "persian_translate": "ساکن",
+      "sentence": "The occupants of the house were not at home.",
+      "persian_sentence_translate": "ساکنان خانه در خانه نبودند."
+    },
+    {
+      "id": 353,
+      "word": "appoint",
+      "persian_translate": "منصوب کردن",
+      "sentence": "He was appointed as the new manager.",
+      "persian_sentence_translate": "او به عنوان مدیر جدید منصوب شد."
+    },
+    {
+      "id": 354,
+      "word": "quarter",
+      "persian_translate": "یک چهارم",
+      "sentence": "A quarter of the students were absent.",
+      "persian_sentence_translate": "یک چهارم دانش آموزان غایب بودند."
+    },
+    {
+      "id": 355,
+      "word": "site",
+      "persian_translate": "مکان",
+      "sentence": "This is the site of the new school.",
+      "persian_sentence_translate": "این مکان مدرسه جدید است."
+    },
+    {
+      "id": 356,
+      "word": "quote",
+      "persian_translate": "نقل قول کردن",
+      "sentence": "Can I quote you on that?",
+      "persian_sentence_translate": "می توانم از شما در این مورد نقل قول کنم؟"
+    },
+    {
+      "id": 357,
+      "word": "verse",
+      "persian_translate": "بیت",
+      "sentence": "I love the first verse of this poem.",
+      "persian_sentence_translate": "من بیت اول این شعر را دوست دارم."
+    },
+    {
+      "id": 358,
+      "word": "morality",
+      "persian_translate": "اخلاق",
+      "sentence": "He has a strong sense of morality.",
+      "persian_sentence_translate": "او حس اخلاقی قوی دارد."
+    },
+    {
+      "id": 359,
+      "word": "roam",
+      "persian_translate": "پرسه زدن",
+      "sentence": "He likes to roam the streets at night.",
+      "persian_sentence_translate": "او دوست دارد شب ها در خیابان ها پرسه بزند."
+    },
+    {
+      "id": 360,
+      "word": "attract",
+      "persian_translate": "جذب کردن",
+      "sentence": "The flowers attract bees.",
+      "persian_sentence_translate": "گل ها زنبورها را جذب می کنند."
+    },
+    {
+      "id": 361,
+      "word": "commuter",
+      "persian_translate": "مسافر هر روزه",
+      "sentence": "He is a commuter who travels to work by train.",
+      "persian_sentence_translate": "او یک مسافر هر روزه است که با قطار به محل کار خود می رود."
+    },
+    {
+      "id": 362,
+      "word": "confine",
+      "persian_translate": "محدود کردن",
+      "sentence": "The prisoners were confined to their cells.",
+      "persian_sentence_translate": "زندانیان به سلول های خود محدود بودند."
+    },
+    {
+      "id": 363,
+      "word": "idle",
+      "persian_translate": "بیکار",
+      "sentence": "He has been idle for months.",
+      "persian_sentence_translate": "او ماه هاست که بیکار است."
+    },
+    {
+      "id": 364,
+      "word": "idol",
+      "persian_translate": "بت",
+      "sentence": "He is a pop idol.",
+      "persian_sentence_translate": "او یک بت پاپ است."
+    },
+    {
+      "id": 365,
+      "word": "jest",
+      "persian_translate": "شوخی",
+      "sentence": "He was not jesting, he was serious.",
+      "persian_sentence_translate": "او شوخی نمی کرد، جدی بود."
+    },
+    {
+      "id": 366,
+      "word": "patriotic",
+      "persian_translate": "میهن پرست",
+      "sentence": "He is a very patriotic person.",
+      "persian_sentence_translate": "او فردی بسیار میهن پرست است."
+    },
+    {
+      "id": 367,
+      "word": "dispute",
+      "persian_translate": "اختلاف",
+      "sentence": "There is a dispute between the two countries.",
+      "persian_sentence_translate": "بین این دو کشور اختلاف وجود دارد."
+    },
+    {
+      "id": 368,
+      "word": "valor",
+      "persian_translate": "شجاعت",
+      "sentence": "He showed great valor in battle.",
+      "persian_sentence_translate": "او در نبرد شجاعت زیادی از خود نشان داد."
+    },
+    {
+      "id": 369,
+      "word": "lunatic",
+      "persian_translate": "دیوانه",
+      "sentence": "He is a lunatic.",
+      "persian_sentence_translate": "او یک دیوانه است."
+    },
+    {
+      "id": 370,
+      "word": "vein",
+      "persian_translate": "رگ",
+      "sentence": "He has a prominent vein in his forehead.",
+      "persian_sentence_translate": "او یک رگ برجسته در پیشانی خود دارد."
+    },
+    {
+      "id": 371,
+      "word": "uneventful",
+      "persian_translate": "بدون حادثه",
+      "sentence": "It was an uneventful journey.",
+      "persian_sentence_translate": "این یک سفر بدون حادثه بود."
+    },
+    {
+      "id": 372,
+      "word": "fertile",
+      "persian_translate": "حاصلخیز",
+      "sentence": "The land is very fertile.",
+      "persian_sentence_translate": "زمین بسیار حاصلخیز است."
+    },
+    {
+      "id": 373,
+      "word": "refer",
+      "persian_translate": "ارجاع دادن",
+      "sentence": "I will refer you to a specialist.",
+      "persian_sentence_translate": "من شما را به یک متخصص ارجاع خواهم داد."
+    },
+    {
+      "id": 374,
+      "word": "distress",
+      "persian_translate": "پریشانی",
+      "sentence": "She was in great distress after her husband's death.",
+      "persian_sentence_translate": "او پس از مرگ شوهرش در پریشانی زیادی بود."
+    },
+    {
+      "id": 375,
+      "word": "diminish",
+      "persian_translate": "کاهش یافتن",
+      "sentence": "The pain will gradually diminish.",
+      "persian_sentence_translate": "درد به تدریج کاهش می یابد."
+    },
+    {
+      "id": 376,
+      "word": "maximum",
+      "persian_translate": "حداکثر",
+      "sentence": "The maximum speed limit is 60 miles per hour.",
+      "persian_sentence_translate": "حداکثر سرعت مجاز 60 مایل در ساعت است."
+    },
+    {
+      "id": 377,
+      "word": "flee",
+      "persian_translate": "فرار کردن",
+      "sentence": "The prisoners tried to flee.",
+      "persian_sentence_translate": "زندانیان سعی کردند فرار کنند."
+    },
+    {
+      "id": 378,
+      "word": "vulnerable",
+      "persian_translate": "آسیب پذیر",
+      "sentence": "The old woman was vulnerable to attack.",
+      "persian_sentence_translate": "پیرزن در برابر حمله آسیب پذیر بود."
+    },
+    {
+      "id": 379,
+      "word": "signify",
+      "persian_translate": "نشان دادن",
+      "sentence": "The red light signifies that you must stop.",
+      "persian_sentence_translate": "چراغ قرمز نشان می دهد که شما باید توقف کنید."
+    },
+    {
+      "id": 380,
+      "word": "mythology",
+      "persian_translate": "اساطیر",
+      "sentence": "I am interested in Greek mythology.",
+      "persian_sentence_translate": "من به اساطیر یونان علاقه مند هستم."
+    },
+    {
+      "id": 381,
+      "word": "colleague",
+      "persian_translate": "همکار",
+      "sentence": "I went to lunch with my colleagues.",
+      "persian_sentence_translate": "من با همکارانم برای ناهار رفتم."
+    },
+    {
+      "id": 382,
+      "word": "torment",
+      "persian_translate": "عذاب دادن",
+      "sentence": "He was tormented by guilt.",
+      "persian_sentence_translate": "او از احساس گناه عذاب می کشید."
+    },
+    {
+      "id": 383,
+      "word": "provide",
+      "persian_translate": "فراهم کردن",
+      "sentence": "The company provides free meals for its employees.",
+      "persian_sentence_translate": "این شرکت برای کارمندان خود وعده های غذایی رایگان فراهم می کند."
+    },
+    {
+      "id": 384,
+      "word": "loyalty",
+      "persian_translate": "وفاداری",
+      "sentence": "He showed his loyalty to the company.",
+      "persian_sentence_translate": "او وفاداری خود را به شرکت نشان داد."
+    },
+    {
+      "id": 385,
+      "word": "volunteer",
+      "persian_translate": "داوطلب",
+      "sentence": "She is a volunteer at the local hospital.",
+      "persian_sentence_translate": "او در بیمارستان محلی داوطلب است."
+    },
+    {
+      "id": 386,
+      "word": "prejudice",
+      "persian_translate": "تعصب",
+      "sentence": "He has a prejudice against foreigners.",
+      "persian_sentence_translate": "او نسبت به خارجی ها تعصب دارد."
+    },
+    {
+      "id": 387,
+      "word": "shrill",
+      "persian_translate": "گوشخراش",
+      "sentence": "She has a shrill voice.",
+      "persian_sentence_translate": "او صدای گوشخراشی دارد."
+    },
+    {
+      "id": 388,
+      "word": "jolly",
+      "persian_translate": "شاد",
+      "sentence": "He is a jolly old man.",
+      "persian_sentence_translate": "او یک پیرمرد شاد است."
+    },
+    {
+      "id": 389,
+      "word": "witty",
+      "persian_translate": "شوخ",
+      "sentence": "He is very witty and charming.",
+      "persian_sentence_translate": "او بسیار شوخ و جذاب است."
+    },
+    {
+      "id": 390,
+      "word": "hinder",
+      "persian_translate": "مانع شدن",
+      "sentence": "The bad weather hindered our progress.",
+      "persian_sentence_translate": "هوای بد مانع پیشرفت ما شد."
+    },
+    {
+      "id": 391,
+      "word": "lecture",
+      "persian_translate": "سخنرانی",
+      "sentence": "The professor gave a lecture on modern art.",
+      "persian_sentence_translate": "استاد در مورد هنر مدرن سخنرانی کرد."
+    },
+    {
+      "id": 392,
+      "word": "abuse",
+      "persian_translate": "سوء استفاده کردن",
+      "sentence": "He abused his power.",
+      "persian_sentence_translate": "او از قدرت خود سوء استفاده کرد."
+    },
+    {
+      "id": 393,
+      "word": "mumble",
+      "persian_translate": "زیر لب گفتن",
+      "sentence": "He mumbled something and then left.",
+      "persian_sentence_translate": "او چیزی زیر لب گفت و سپس رفت."
+    },
+    {
+      "id": 394,
+      "word": "mute",
+      "persian_translate": "لال",
+      "sentence": "She was mute with fear.",
+      "persian_sentence_translate": "او از ترس لال شده بود."
+    },
+    {
+      "id": 395,
+      "word": "wad",
+      "persian_translate": "گلوله",
+      "sentence": "He had a wad of money in his pocket.",
+      "persian_sentence_translate": "او یک گلوله پول در جیبش داشت."
+    },
+    {
+      "id": 396,
+      "word": "retain",
+      "persian_translate": "حفظ کردن",
+      "sentence": "He retained his title as champion.",
+      "persian_sentence_translate": "او عنوان قهرمانی خود را حفظ کرد."
+    },
+    {
+      "id": 397,
+      "word": "candidate",
+      "persian_translate": "نامزد",
+      "sentence": "There are three candidates for the job.",
+      "persian_sentence_translate": "سه نامزد برای این شغل وجود دارد."
+    },
+    {
+      "id": 398,
+      "word": "precede",
+      "persian_translate": "مقدم بودن",
+      "sentence": "The introduction precedes the main part of the book.",
+      "persian_sentence_translate": "مقدمه بر بخش اصلی کتاب مقدم است."
+    },
+    {
+      "id": 399,
+      "word": "adolescent",
+      "persian_translate": "نوجوان",
+      "sentence": "He is an adolescent.",
+      "persian_sentence_translate": "او یک نوجوان است."
+    },
+    {
+      "id": 400,
+      "word": "coeducational",
+      "persian_translate": "مختلط",
+      "sentence": "It is a coeducational school.",
+      "persian_sentence_translate": "این یک مدرسه مختلط است."
+    },
+    {
+      "id": 401,
+      "word": "radical",
+      "persian_translate": "رادیکال",
+      "sentence": "He has radical political views.",
+      "persian_sentence_translate": "او دیدگاه های سیاسی رادیکالی دارد."
+    },
+    {
+      "id": 402,
+      "word": "spontaneous",
+      "persian_translate": "خود به خود",
+      "sentence": "It was a spontaneous decision.",
+      "persian_sentence_translate": "این یک تصمیم خود به خودی بود."
+    },
+    {
+      "id": 403,
+      "word": "skim",
+      "persian_translate": "روخوانی کردن",
+      "sentence": "I skimmed through the book.",
+      "persian_sentence_translate": "من کتاب را روخوانی کردم."
+    },
+    {
+      "id": 404,
+      "word": "vaccinate",
+      "persian_translate": "واکسینه کردن",
+      "sentence": "All children should be vaccinated against measles.",
+      "persian_sentence_translate": "همه کودکان باید در برابر سرخک واکسینه شوند."
+    },
+    {
+      "id": 405,
+      "word": "untidy",
+      "persian_translate": "نامرتب",
+      "sentence": "His room is always untidy.",
+      "persian_sentence_translate": "اتاق او همیشه نامرتب است."
+    },
+    {
+      "id": 406,
+      "word": "utensil",
+      "persian_translate": "ظرف",
+      "sentence": "We need some kitchen utensils.",
+      "persian_sentence_translate": "ما به چند ظرف آشپزخانه نیاز داریم."
+    },
+    {
+      "id": 407,
+      "word": "sensitive",
+      "persian_translate": "حساس",
+      "sentence": "She is very sensitive to criticism.",
+      "persian_sentence_translate": "او به انتقاد بسیار حساس است."
+    },
+    {
+      "id": 408,
+      "word": "temperate",
+      "persian_translate": "معتدل",
+      "sentence": "The climate is temperate in this region.",
+      "persian_sentence_translate": "آب و هوا در این منطقه معتدل است."
+    },
+    {
+      "id": 409,
+      "word": "vague",
+      "persian_translate": "مبهم",
+      "sentence": "I have only a vague idea of what he wants.",
+      "persian_sentence_translate": "من فقط یک ایده مبهم از آنچه او می خواهد دارم."
+    },
+    {
+      "id": 410,
+      "word": "elevate",
+      "persian_translate": "بالا بردن",
+      "sentence": "The new job will elevate her status.",
+      "persian_sentence_translate": "شغل جدید موقعیت او را بالا می برد."
+    },
+    {
+      "id": 411,
+      "word": "lottery",
+      "persian_translate": "قرعه کشی",
+      "sentence": "He won the lottery.",
+      "persian_sentence_translate": "او در قرعه کشی برنده شد."
+    },
+    {
+      "id": 412,
+      "word": "finance",
+      "persian_translate": "امور مالی",
+      "sentence": "He works in finance.",
+      "persian_sentence_translate": "او در امور مالی کار می کند."
+    },
+    {
+      "id": 413,
+      "word": "obtain",
+      "persian_translate": "به دست آوردن",
+      "sentence": "He obtained a loan from the bank.",
+      "persian_sentence_translate": "او از بانک وام گرفت."
+    },
+    {
+      "id": 414,
+      "word": "cinema",
+      "persian_translate": "سینما",
+      "sentence": "I'm going to the cinema tonight.",
+      "persian_sentence_translate": "من امشب به سینما می روم."
+    },
+    {
+      "id": 415,
+      "word": "event",
+      "persian_translate": "رویداد",
+      "sentence": "The wedding was a big event.",
+      "persian_sentence_translate": "عروسی یک رویداد بزرگ بود."
+    },
+    {
+      "id": 416,
+      "word": "discard",
+      "persian_translate": "دور انداختن",
+      "sentence": "He discarded the old newspapers.",
+      "persian_sentence_translate": "او روزنامه های قدیمی را دور انداخت."
+    },
+    {
+      "id": 417,
+      "word": "soar",
+      "persian_translate": "اوج گرفتن",
+      "sentence": "The eagle soared high in the sky.",
+      "persian_sentence_translate": "عقاب در آسمان اوج گرفت."
+    },
+    {
+      "id": 418,
+      "word": "subsequent",
+      "persian_translate": "بعدی",
+      "sentence": "The subsequent events proved him right.",
+      "persian_sentence_translate": "رویدادهای بعدی حق را به او داد."
+    },
+    {
+      "id": 419,
+      "word": "relate",
+      "persian_translate": "مربوط بودن",
+      "sentence": "The two events are related.",
+      "persian_sentence_translate": "این دو رویداد به هم مربوط هستند."
+    },
+    {
+      "id": 420,
+      "word": "stationary",
+      "persian_translate": "ثابت",
+      "sentence": "The car was stationary at the traffic lights.",
+      "persian_sentence_translate": "ماشین در چراغ راهنمایی ثابت بود."
+    },
+    {
+      "id": 421,
+      "word": "prompt",
+      "persian_translate": "سریع",
+      "sentence": "He gave a prompt reply.",
+      "persian_sentence_translate": "او پاسخ سریعی داد."
+    },
+    {
+      "id": 422,
+      "word": "hasty",
+      "persian_translate": "عجولانه",
+      "sentence": "He made a hasty decision.",
+      "persian_sentence_translate": "او یک تصمیم عجولانه گرفت."
+    },
+    {
+      "id": 423,
+      "word": "scorch",
+      "persian_translate": "سوزاندن",
+      "sentence": "The sun scorched the earth.",
+      "persian_sentence_translate": "خورشید زمین را سوزاند."
+    },
+    {
+      "id": 424,
+      "word": "tempest",
+      "persian_translate": "طوفان",
+      "sentence": "A tempest is a violent storm.",
+      "persian_sentence_translate": "طوفان یک طوفان شدید است."
+    },
+    {
+      "id": 425,
+      "word": "soothe",
+      "persian_translate": "آرام کردن",
+      "sentence": "The music soothed my nerves.",
+      "persian_sentence_translate": "موسیقی اعصابم را آرام کرد."
+    },
+    {
+      "id": 426,
+      "word": "sympathetic",
+      "persian_translate": "همدرد",
+      "sentence": "She was very sympathetic when I told her my problem.",
+      "persian_sentence_translate": "وقتی مشکلم را به او گفتم، بسیار همدردی کرد."
+    },
+    {
+      "id": 427,
+      "word": "redeem",
+      "persian_translate": "بازخرید کردن",
+      "sentence": "He redeemed his watch from the pawnshop.",
+      "persian_sentence_translate": "او ساعت خود را از سمساری بازخرید کرد."
+    },
+    {
+      "id": 428,
+      "word": "resume",
+      "persian_translate": "از سر گرفتن",
+      "sentence": "He will resume his duties next week.",
+      "persian_sentence_translate": "او هفته آینده وظایف خود را از سر خواهد گرفت."
+    },
+    {
+      "id": 429,
+      "word": "harmony",
+      "persian_translate": "هماهنگی",
+      "sentence": "There is a perfect harmony between the two countries.",
+      "persian_sentence_translate": "هماهنگی کاملی بین این دو کشور وجود دارد."
+    },
+    {
+      "id": 430,
+      "word": "refrain",
+      "persian_translate": "خودداری کردن",
+      "sentence": "Please refrain from smoking.",
+      "persian_sentence_translate": "لطفاً از سیگار کشیدن خودداری کنید."
+    },
+    {
+      "id": 431,
+      "word": "illegal",
+      "persian_translate": "غیرقانونی",
+      "sentence": "It is illegal to sell drugs.",
+      "persian_sentence_translate": "فروش مواد مخدر غیرقانونی است."
+    },
+    {
+      "id": 432,
+      "word": "narcotic",
+      "persian_translate": "ماده مخدر",
+      "sentence": "Heroin is a narcotic.",
+      "persian_sentence_translate": "هروئین یک ماده مخدر است."
+    },
+    {
+      "id": 433,
+      "word": "heir",
+      "persian_translate": "وارث",
+      "sentence": "He is the heir to a large fortune.",
+      "persian_sentence_translate": "او وارث ثروت بزرگی است."
+    },
+    {
+      "id": 434,
+      "word": "majestic",
+      "persian_translate": "باشکوه",
+      "sentence": "The majestic mountains were covered in snow.",
+      "persian_sentence_translate": "کوه های باشکوه پوشیده از برف بودند."
+    },
+    {
+      "id": 435,
+      "word": "dwindle",
+      "persian_translate": "کاهش یافتن",
+      "sentence": "The number of students in the class has dwindled.",
+      "persian_sentence_translate": "تعداد دانش آموزان در کلاس کاهش یافته است."
+    },
+    {
+      "id": 436,
+      "word": "surplus",
+      "persian_translate": "مازاد",
+      "sentence": "There is a surplus of food.",
+      "persian_sentence_translate": "مازاد غذا وجود دارد."
+    },
+    {
+      "id": 437,
+      "word": "traitor",
+      "persian_translate": "خائن",
+      "sentence": "He was a traitor to his country.",
+      "persian_sentence_translate": "او خائن به کشورش بود."
+    },
+    {
+      "id": 438,
+      "word": "deliberate",
+      "persian_translate": "عمدی",
+      "sentence": "It was a deliberate act of cruelty.",
+      "persian_sentence_translate": "این یک عمل عمدی از ظلم بود."
+    },
+    {
+      "id": 439,
+      "word": "vandal",
+      "persian_translate": "خرابکار",
+      "sentence": "The vandals broke the windows.",
+      "persian_sentence_translate": "خرابکاران شیشه ها را شکستند."
+    },
+    {
+      "id": 440,
+      "word": "drought",
+      "persian_translate": "خشکسالی",
+      "sentence": "The country is suffering from a severe drought.",
+      "persian_sentence_translate": "این کشور از خشکسالی شدید رنج می برد."
+    },
+    {
+      "id": 441,
+      "word": "abide",
+      "persian_translate": "پایبند بودن",
+      "sentence": "You must abide by the rules.",
+      "persian_sentence_translate": "شما باید به قوانین پایبند باشید."
+    },
+    {
+      "id": 442,
+      "word": "unify",
+      "persian_translate": "متحد کردن",
+      "sentence": "The new leader tried to unify the country.",
+      "persian_sentence_translate": "رهبر جدید سعی کرد کشور را متحد کند."
+    },
+    {
+      "id": 443,
+      "word": "summit",
+      "persian_translate": "قله",
+      "sentence": "They reached the summit of the mountain.",
+      "persian_sentence_translate": "آنها به قله کوه رسیدند."
+    },
+    {
+      "id": 444,
+      "word": "heed",
+      "persian_translate": "توجه کردن",
+      "sentence": "You should heed my warning.",
+      "persian_sentence_translate": "شما باید به هشدار من توجه کنید."
+    },
+    {
+      "id": 445,
+      "word": "biography",
+      "persian_translate": "زندگینامه",
+      "sentence": "I'm reading a biography of Abraham Lincoln.",
+      "persian_sentence_translate": "من در حال خواندن زندگینامه آبراهام لینکلن هستم."
+    },
+    {
+      "id": 446,
+      "word": "drench",
+      "persian_translate": "خیس کردن",
+      "sentence": "I was drenched in the rain.",
+      "persian_sentence_translate": "من در باران خیس شدم."
+    },
+    {
+      "id": 447,
+      "word": "swarm",
+      "persian_translate": "گروه",
+      "sentence": "A swarm of bees flew out of the hive.",
+      "persian_sentence_translate": "گروهی از زنبورها از کندو بیرون پریدند."
+    },
+    {
+      "id": 448,
+      "word": "wobble",
+      "persian_translate": "تلو تلو خوردن",
+      "sentence": "The table wobbles.",
+      "persian_sentence_translate": "میز تلو تلو می خورد."
+    },
+    {
+      "id": 449,
+      "word": "tumult",
+      "persian_translate": "همهمه",
+      "sentence": "There was a tumult in the crowd.",
+      "persian_sentence_translate": "در میان جمعیت همهمه ای برپا بود."
+    },
+    {
+      "id": 450,
+      "word": "kneel",
+      "persian_translate": "زانو زدن",
+      "sentence": "He knelt down to pray.",
+      "persian_sentence_translate": "او برای دعا زانو زد."
+    },
+    {
+      "id": 451,
+      "word": "dejected",
+      "persian_translate": "افسرده",
+      "sentence": "She was dejected after losing the game.",
+      "persian_sentence_translate": "او پس از باختن بازی افسرده بود."
+    },
+    {
+      "id": 452,
+      "word": "obedient",
+      "persian_translate": "مطیع",
+      "sentence": "He is an obedient child.",
+      "persian_sentence_translate": "او یک کودک مطیع است."
+    },
+    {
+      "id": 453,
+      "word": "recede",
+      "persian_translate": "عقب نشینی کردن",
+      "sentence": "The floodwaters began to recede.",
+      "persian_sentence_translate": "آب های سیل شروع به عقب نشینی کردند."
+    },
+    {
+      "id": 454,
+      "word": "tyrant",
+      "persian_translate": "ستمگر",
+      "sentence": "The country was ruled by a cruel tyrant.",
+      "persian_sentence_translate": "این کشور توسط یک ستمگر بی رحم اداره می شد."
+    },
+    {
+      "id": 455,
+      "word": "charity",
+      "persian_translate": "خیریه",
+      "sentence": "He donated money to charity.",
+      "persian_sentence_translate": "او به خیریه پول اهدا کرد."
+    },
+    {
+      "id": 456,
+      "word": "verdict",
+      "persian_translate": "رای",
+      "sentence": "The jury reached a verdict of guilty.",
+      "persian_sentence_translate": "هیئت منصفه به رای مجرمیت رسید."
+    },
+    {
+      "id": 457,
+      "word": "unearth",
+      "persian_translate": "از زیر خاک درآوردن",
+      "sentence": "They unearthed a Roman villa.",
+      "persian_sentence_translate": "آنها یک ویلای رومی را از زیر خاک درآوردند."
+    },
+    {
+      "id": 458,
+      "word": "depart",
+      "persian_translate": "عزیمت کردن",
+      "sentence": "The train will depart from platform 2.",
+      "persian_sentence_translate": "قطار از سکوی 2 عزیمت خواهد کرد."
+    },
+    {
+      "id": 459,
+      "word": "coincide",
+      "persian_translate": "همزمان بودن",
+      "sentence": "My birthday coincides with a national holiday.",
+      "persian_sentence_translate": "تولد من با یک تعطیلات ملی همزمان است."
+    },
+    {
+      "id": 460,
+      "word": "cancel",
+      "persian_translate": "لغو کردن",
+      "sentence": "The meeting was canceled.",
+      "persian_sentence_translate": "جلسه لغو شد."
+    },
+    {
+      "id": 461,
+      "word": "debtor",
+      "persian_translate": "بدهکار",
+      "sentence": "He is a debtor.",
+      "persian_sentence_translate": "او یک بدهکار است."
+    },
+    {
+      "id": 462,
+      "word": "legible",
+      "persian_translate": "خوانا",
+      "sentence": "His handwriting is not very legible.",
+      "persian_sentence_translate": "دست خط او چندان خوانا نیست."
+    },
+    {
+      "id": 463,
+      "word": "placard",
+      "persian_translate": "پلاکارد",
+      "sentence": "The protesters carried placards.",
+      "persian_sentence_translate": "معترضان پلاکاردهایی در دست داشتند."
+    },
+    {
+      "id": 464,
+      "word": "contagious",
+      "persian_translate": "مسری",
+      "sentence": "The disease is highly contagious.",
+      "persian_sentence_translate": "این بیماری بسیار مسری است."
+    },
+    {
+      "id": 465,
+      "word": "clergy",
+      "persian_translate": "روحانیون",
+      "sentence": "The clergy are the religious leaders of a community.",
+      "persian_sentence_translate": "روحانیون رهبران مذهبی یک جامعه هستند."
+    },
+    {
+      "id": 466,
+      "word": "customary",
+      "persian_translate": "مرسوم",
+      "sentence": "It is customary to tip the waiter.",
+      "persian_sentence_translate": "مرسوم است که به گارسون انعام بدهید."
+    },
+    {
+      "id": 467,
+      "word": "transparent",
+      "persian_translate": "شفاف",
+      "sentence": "The water was so transparent that you could see the bottom.",
+      "persian_sentence_translate": "آب آنقدر شفاف بود که می توانستید کف آن را ببینید."
+    },
+    {
+      "id": 468,
+      "word": "scald",
+      "persian_translate": "سوزاندن",
+      "sentence": "He scalded his hand on the hot stove.",
+      "persian_sentence_translate": "او دستش را روی اجاق داغ سوزاند."
+    },
+    {
+      "id": 469,
+      "word": "epidemic",
+      "persian_translate": "همه گیری",
+      "sentence": "There was an epidemic of flu last winter.",
+      "persian_sentence_translate": "زمستان گذشته همه گیری آنفولانزا وجود داشت."
+    },
+    {
+      "id": 470,
+      "word": "obesity",
+      "persian_translate": "چاقی",
+      "sentence": "Obesity is a major health problem.",
+      "persian_sentence_translate": "چاقی یک مشکل عمده سلامتی است."
+    },
+    {
+      "id": 471,
+      "word": "magnify",
+      "persian_translate": "بزرگ کردن",
+      "sentence": "The microscope magnifies the image.",
+      "persian_sentence_translate": "میکروسکوپ تصویر را بزرگ می کند."
+    },
+    {
+      "id": 472,
+      "word": "chiropractor",
+      "persian_translate": "کایروپراکتیک",
+      "sentence": "I went to a chiropractor for my back pain.",
+      "persian_sentence_translate": "من برای کمردردم به یک کایروپراکتیک مراجعه کردم."
+    },
+    {
+      "id": 473,
+      "word": "obstacle",
+      "persian_translate": "مانع",
+      "sentence": "Lack of money is a major obstacle to his plans.",
+      "persian_sentence_translate": "کمبود پول مانع اصلی برنامه های او است."
+    },
+    {
+      "id": 474,
+      "word": "ventilate",
+      "persian_translate": "تهویه کردن",
+      "sentence": "You should ventilate the room.",
+      "persian_sentence_translate": "شما باید اتاق را تهویه کنید."
+    },
+    {
+      "id": 475,
+      "word": "jeopardize",
+      "persian_translate": "به خطر انداختن",
+      "sentence": "Don't jeopardize your health by smoking.",
+      "persian_sentence_translate": "سلامتی خود را با سیگار کشیدن به خطر نیندازید."
+    },
+    {
+      "id": 476,
+      "word": "negative",
+      "persian_translate": "منفی",
+      "sentence": "He has a negative attitude.",
+      "persian_sentence_translate": "او نگرش منفی دارد."
+    },
+    {
+      "id": 477,
+      "word": "pension",
+      "persian_translate": "حقوق بازنشستگی",
+      "sentence": "He receives a pension from the government.",
+      "persian_sentence_translate": "او از دولت حقوق بازنشستگی دریافت می کند."
+    },
+    {
+      "id": 478,
+      "word": "vital",
+      "persian_translate": "حیاتی",
+      "sentence": "Water is vital for life.",
+      "persian_sentence_translate": "آب برای زندگی حیاتی است."
+    },
+    {
+      "id": 479,
+      "word": "municipal",
+      "persian_translate": "شهری",
+      "sentence": "The municipal government is responsible for providing services such as water and electricity.",
+      "persian_sentence_translate": "دولت شهری مسئول ارائه خدماتی مانند آب و برق است."
+    },
+    {
+      "id": 480,
+      "word": "oral",
+      "persian_translate": "شفاهی",
+      "sentence": "He gave an oral presentation.",
+      "persian_sentence_translate": "او یک ارائه شفاهی داد."
+    },
+    {
+      "id": 481,
+      "word": "complacent",
+      "persian_translate": "از خود راضی",
+      "sentence": "He has become complacent about his work.",
+      "persian_sentence_translate": "او در مورد کارش از خود راضی شده است."
+    },
+    {
+      "id": 482,
+      "word": "wasp",
+      "persian_translate": "زنبور",
+      "sentence": "I was stung by a wasp.",
+      "persian_sentence_translate": "من توسط یک زنبور گزیده شدم."
+    },
+    {
+      "id": 483,
+      "word": "rehabilitate",
+      "persian_translate": "توانبخشی کردن",
+      "sentence": "He is trying to rehabilitate his image.",
+      "persian_sentence_translate": "او در تلاش است تا تصویر خود را توانبخشی کند."
+    },
+    {
+      "id": 484,
+      "word": "parole",
+      "persian_translate": "آزادی مشروط",
+      "sentence": "He was released on parole.",
+      "persian_sentence_translate": "او به صورت مشروط آزاد شد."
+    },
+    {
+      "id": 485,
+      "word": "vertical",
+      "persian_translate": "عمودی",
+      "sentence": "The wall is vertical.",
+      "persian_sentence_translate": "دیوار عمودی است."
+    },
+    {
+      "id": 486,
+      "word": "multitude",
+      "persian_translate": "انبوه",
+      "sentence": "A multitude of people attended the concert.",
+      "persian_sentence_translate": "انبوهی از مردم در این کنسرت شرکت کردند."
+    },
+    {
+      "id": 487,
+      "word": "nominate",
+      "persian_translate": "نامزد کردن",
+      "sentence": "He was nominated for the award.",
+      "persian_sentence_translate": "او برای این جایزه نامزد شد."
+    },
+    {
+      "id": 488,
+      "word": "potential",
+      "persian_translate": "پتانسیل",
+      "sentence": "He has the potential to be a great leader.",
+      "persian_sentence_translate": "او پتانسیل این را دارد که یک رهبر بزرگ باشد."
+    },
+    {
+      "id": 489,
+      "word": "morgue",
+      "persian_translate": "سردخانه",
+      "sentence": "The body was taken to the morgue.",
+      "persian_sentence_translate": "جسد به سردخانه منتقل شد."
+    },
+    {
+      "id": 490,
+      "word": "preoccupied",
+      "persian_translate": "مشغول",
+      "sentence": "He was preoccupied with his work.",
+      "persian_sentence_translate": "او مشغول کارش بود."
+    },
+    {
+      "id": 491,
+      "word": "upholstery",
+      "persian_translate": "روکش",
+      "sentence": "The upholstery on the sofa is worn.",
+      "persian_sentence_translate": "روکش مبل فرسوده شده است."
+    },
+    {
+      "id": 492,
+      "word": "indifference",
+      "persian_translate": "بی تفاوتی",
+      "sentence": "He showed a complete indifference to her feelings.",
+      "persian_sentence_translate": "او بی تفاوتی کاملی نسبت به احساسات او نشان داد."
+    },
+    {
+      "id": 493,
+      "word": "maintain",
+      "persian_translate": "نگهداری کردن",
+      "sentence": "You should maintain your car regularly.",
+      "persian_sentence_translate": "شما باید ماشین خود را به طور مرتب نگهداری کنید."
+    },
+    {
+      "id": 494,
+      "word": "snub",
+      "persian_translate": "بی اعتنایی کردن",
+      "sentence": "He snubbed me at the party.",
+      "persian_sentence_translate": "او در مهمانی به من بی اعتنایی کرد."
+    },
+    {
+      "id": 495,
+      "word": "endure",
+      "persian_translate": "تحمل کردن",
+      "sentence": "I can't endure the pain.",
+      "persian_sentence_translate": "من نمی توانم درد را تحمل کنم."
+    },
+    {
+      "id": 496,
+      "word": "wrath",
+      "persian_translate": "خشم",
+      "sentence": "He incurred the wrath of his boss.",
+      "persian_sentence_translate": "او خشم رئیس خود را برانگیخت."
+    },
+    {
+      "id": 497,
+      "word": "expose",
+      "persian_translate": "در معرض قرار دادن",
+      "sentence": "Don't expose your skin to the sun for too long.",
+      "persian_sentence_translate": "پوست خود را برای مدت طولانی در معرض نور خورشید قرار ندهید."
+    },
+    {
+      "id": 498,
+      "word": "legend",
+      "persian_translate": "افسانه",
+      "sentence": "The story of Robin Hood is a legend.",
+      "persian_sentence_translate": "داستان رابین هود یک افسانه است."
+    },
+    {
+      "id": 499,
+      "word": "ponder",
+      "persian_translate": "تامل کردن",
+      "sentence": "He pondered the question for a long time.",
+      "persian_sentence_translate": "او مدت زیادی در مورد این سوال تامل کرد."
+    },
+    {
+      "id": 500,
+      "word": "resign",
+      "persian_translate": "استعفا دادن",
+      "sentence": "He resigned from his job.",
+      "persian_sentence_translate": "او از شغل خود استعفا داد."
+    },
+    {
+      "id": 501,
+      "word": "drastic",
+      "persian_translate": "شدید",
+      "sentence": "The company has taken drastic measures to reduce costs.",
+      "persian_sentence_translate": "این شرکت اقدامات شدیدی برای کاهش هزینه ها انجام داده است."
+    },
+    {
+      "id": 502,
+      "word": "wharf",
+      "persian_translate": "اسکله",
+      "sentence": "The ship was docked at the wharf.",
+      "persian_sentence_translate": "کشتی در اسکله لنگر انداخته بود."
+    },
+    {
+      "id": 503,
+      "word": "amend",
+      "persian_translate": "اصلاح کردن",
+      "sentence": "The constitution was amended.",
+      "persian_sentence_translate": "قانون اساسی اصلاح شد."
+    },
+    {
+      "id": 504,
+      "word": "ballot",
+      "persian_translate": "رای",
+      "sentence": "He cast his ballot in the election.",
+      "persian_sentence_translate": "او رای خود را در انتخابات به صندوق انداخت."
+    }
+  ]
+}

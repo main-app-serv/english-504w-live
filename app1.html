@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Vocabulary Practice</title>
+    <style>
+        /* FONT DEFINITION ADDED HERE */
+        @font-face {
+            font-family: 'Vazirmatn';
+            src: url('Vazirmatn-Medium.woff2') format('woff2');
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* FONT APPLICATION MODIFIED HERE */
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        }
+
+        body {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(90deg, #2575fc, #6a11cb);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f1f3f6;
+            padding: 10px 15px;
+            border-bottom: 1px solid #e0e0e0;
+            flex-wrap: wrap;
+        }
+
+        .mode-selector {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        
+        .data-source-selector {
+            padding: 5px;
+        }
+        
+        .data-source-selector label {
+            font-weight: 600;
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+        
+        #data-source {
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            background-color: white;
+            font-weight: 500;
+        }
+
+        .mode-btn {
+            padding: 12px 25px;
+            margin: 0 10px;
+            border: none;
+            background-color: #4a6ee0;
+            color: white;
+            border-radius: 30px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .mode-btn:hover {
+            background-color: #3a5ec9;
+            transform: translateY(-2px);
+        }
+
+        .mode-btn.active {
+            background-color: #6a11cb;
+            box-shadow: 0 4px 8px rgba(106, 17, 203, 0.4);
+        }
+
+        .content-area {
+            padding: 30px;
+            min-height: 500px;
+        }
+
+        .practice-section {
+            display: none;
+        }
+
+        .practice-section.active {
+            display: block;
+        }
+
+        /* Flashcard Styles */
+        .flashcard-container {
+            perspective: 1000px;
+            width: 450px;
+            height: 280px;
+            margin: 0 auto 30px;
+        }
+
+        .flashcard {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.8s;
+            cursor: pointer;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flashcard-front, .flashcard-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .flashcard-front {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+
+        .flashcard-back {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            color: white;
+            transform: rotateY(180deg);
+        }
+
+        .word {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        
+        .sentence-example {
+            font-size: 1rem;
+            margin-top: 15px;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        .translation {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        .hint {
+            font-size: 0.9rem;
+            margin-top: 15px;
+            opacity: 0.8;
+            position: absolute;
+            bottom: 20px;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .nav-btn {
+            padding: 10px 20px;
+            border: none;
+            background-color: #4a6ee0;
+            color: white;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background-color: #3a5ec9;
+        }
+
+        /* Quiz Styles */
+        .quiz-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .question {
+            font-size: 1.8rem;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .option {
+            padding: 15px;
+            background-color: #f1f3f6;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 1.1rem;
+        }
+
+        .option:hover {
+            background-color: #e1e5eb;
+            border-color: #4a6ee0;
+        }
+
+        .option.selected {
+            background-color: #4a6ee0;
+            color: white;
+            border-color: #4a6ee0;
+        }
+
+        .option.correct {
+            background-color: #43e97b;
+            color: white;
+            border-color: #43e97b;
+        }
+
+        .option.incorrect {
+            background-color: #ff6b6b;
+            color: white;
+            border-color: #ff6b6b;
+        }
+
+        .feedback {
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 20px 0;
+            min-height: 30px;
+            font-weight: 600;
+        }
+
+        /* Exam Styles */
+        .exam-container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .exam-question {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .exam-word {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .answer-input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .answer-input:focus {
+            border-color: #4a6ee0;
+            outline: none;
+        }
+
+        .exam-results {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .result-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background-color: #f8f9fa;
+        }
+
+        .result-correct {
+            background-color: #d4edda;
+            color: #155724;
+        }
+
+        .result-incorrect {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+
+        .progress {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f1f3f6;
+            border-radius: 10px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #4a6ee0;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+            }
+            .toolbar {
+                flex-direction: column;
+                gap: 10px;
+            }
+            .flashcard-container {
+                width: 100%;
+                height: 250px;
+            }
+            .options {
+                grid-template-columns: 1fr;
+            }
+            .mode-btn {
+                padding: 10px 15px;
+                margin: 0 5px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>English Vocabulary Practice</h1>
+            <p class="subtitle">Master common English words with interactive exercises</p>
+        </header>
+        
+        <div class="toolbar">
+            <div class="mode-selector">
+                <button class="mode-btn active" data-mode="flashcard">Flashcards</button>
+                <button class="mode-btn" data-mode="quiz">Multiple Choice</button>
+                <button class="mode-btn" data-mode="exam">Translation Test</button>
+            </div>
+            <div class="data-source-selector">
+                <label for="data-source">Choose Words:</label>
+                <select id="data-source">
+                    <!-- مسیر اصلاح شده به data.json در روت -->
+                    <option value="data.json">504 Common Words</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="content-area">
+            <!-- Flashcard Section -->
+            <div class="practice-section active" id="flashcard-section">
+                <div class="flashcard-container">
+                    <div class="flashcard">
+                        <div class="flashcard-front">
+                            <div class="word" id="flashcard-word">Loading...</div>
+                            <p class="sentence-example" id="flashcard-sentence"></p>
+                            <p class="hint">Click to flip</p>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="translation" id="flashcard-translation">Loading...</div>
+                            <p class="sentence-example" id="flashcard-persian-sentence"></p>
+                            <p class="hint">Click to flip back</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="navigation">
+                    <button class="nav-btn" id="prev-card">Previous</button>
+                    <button class="nav-btn" id="next-card">Next</button>
+                    <button class="nav-btn" id="shuffle-cards">Shuffle</button>
+                </div>
+                
+                <div class="progress">
+                    <span id="card-counter">0 / 0</span>
+                </div>
+            </div>
+            
+            <!-- Quiz Section -->
+            <div class="practice-section" id="quiz-section">
+                <div class="quiz-container">
+                    <div class="question" id="quiz-question">Loading question...</div>
+                    <div class="options" id="quiz-options"></div>
+                    <div class="feedback" id="quiz-feedback"></div>
+                    <div class="navigation">
+                        <button class="nav-btn" id="check-answer">Check Answer</button>
+                        <button class="nav-btn" id="next-question">Next Question</button>
+                    </div>
+                    <div class="progress">
+                        <span id="quiz-counter">1 / 20</span>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-value" id="correct-answers">0</div>
+                            <div class="stat-label">Correct</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="incorrect-answers">0</div>
+                            <div class="stat-label">Incorrect</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" id="quiz-score">0%</div>
+                            <div class="stat-label">Score</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Exam Section -->
+            <div class="practice-section" id="exam-section">
+                <div class="exam-container">
+                    <div id="exam-questions"></div>
+                    <div class="navigation">
+                        <button class="nav-btn" id="submit-exam">Submit Answers</button>
+                        <button class="nav-btn" id="new-exam">New Exam</button>
+                    </div>
+                    <div class="exam-results" id="exam-results"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // App state
+        let currentMode = 'flashcard';
+        let vocabulary = [];
+        let shuffledWords = [];
+        let examWords = [];
+        let userExamAnswers = [];
+
+        // Flashcard state
+        let currentCardIndex = 0;
+        
+        // Quiz state
+        let quizWords = [];
+        let currentQuestionIndex = 0;
+        let correctAnswers = 0;
+        let incorrectAnswers = 0;
+        const QUIZ_LENGTH = 20;
+
+        // DOM Elements
+        const modeButtons = document.querySelectorAll('.mode-btn');
+        const practiceSections = document.querySelectorAll('.practice-section');
+        const dataSourceSelector = document.getElementById('data-source');
+        
+        // Flashcard elements
+        const flashcard = document.querySelector('.flashcard');
+        const flashcardWord = document.getElementById('flashcard-word');
+        const flashcardSentence = document.getElementById('flashcard-sentence');
+        const flashcardTranslation = document.getElementById('flashcard-translation');
+        const flashcardPersianSentence = document.getElementById('flashcard-persian-sentence');
+        const prevCardBtn = document.getElementById('prev-card');
+        const nextCardBtn = document.getElementById('next-card');
+        const shuffleCardsBtn = document.getElementById('shuffle-cards');
+        const cardCounter = document.getElementById('card-counter');
+        
+        // Quiz elements
+        const quizQuestion = document.getElementById('quiz-question');
+        const quizOptions = document.getElementById('quiz-options');
+        const quizFeedback = document.getElementById('quiz-feedback');
+        const checkAnswerBtn = document.getElementById('check-answer');
+        const nextQuestionBtn = document.getElementById('next-question');
+        const quizCounter = document.getElementById('quiz-counter');
+        const correctAnswersElem = document.getElementById('correct-answers');
+        const incorrectAnswersElem = document.getElementById('incorrect-answers');
+        const quizScoreElem = document.getElementById('quiz-score');
+        
+        // Exam elements
+        const examQuestionsContainer = document.getElementById('exam-questions');
+        const submitExamBtn = document.getElementById('submit-exam');
+        const newExamBtn = document.getElementById('new-exam');
+        const examResults = document.getElementById('exam-results');
+        
+        // --- احراز هویت و بررسی اشتراک ---
+        function checkAuthenticationAndSubscription() {
+            const userData = JSON.parse(localStorage.getItem('currentUser'));
+            
+            if (!userData) {
+                // اگر کاربر لاگین نکرده، به صفحه ورود بفرست
+                window.location.href = "index.html"; 
+                return false;
+            }
+            
+            // تاریخ پایان را بررسی کن
+            const endDate = new Date(userData.subscriptionEnd);
+            const now = new Date();
+            // پایان روز را برای endDate در نظر می‌گیریم
+            endDate.setHours(23, 59, 59, 999); 
+            
+            if (endDate < now) {
+                alert("اشتراک شما منقضی شده است. لطفا برای ادامه استفاده، اشتراک خود را تمدید کنید.");
+                window.location.href = "index2.html"; // برگشت به داشبورد
+                return false;
+            }
+            // اگر همه چیز اوکی است
+            return true;
+        }
+
+        // --- Data Loading and Initialization ---
+
+        async function loadVocabulary(jsonFile) {
+            try {
+                // مسیر فایل در ساختار یکپارچه: data.json
+                const response = await fetch(jsonFile); 
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                
+                // Adapt data structure to match original code (persian_translate -> persian)
+                vocabulary = data.word_details.map(item => ({
+                    ...item,
+                    persian: item.persian_translate
+                }));
+                
+                return true;
+            } catch (error) {
+                console.error("Could not load vocabulary data:", error);
+                flashcardWord.textContent = "Error loading data.";
+                return false;
+            }
+        }
+
+        async function initializeApp(jsonFile) {
+            if (!checkAuthenticationAndSubscription()) return; // بررسی احراز هویت قبل از شروع
+
+            const success = await loadVocabulary(jsonFile);
+            if (!success) return;
+
+            // Reset all states
+            resetAllModes();
+
+            // Initialize all modes with new data
+            // Flashcards
+            shuffleFlashcardWords();
+            
+            // Quiz
+            startNewQuiz();
+            
+            // Exam
+            generateExam();
+        }
+
+        function resetAllModes() {
+            // Flashcard reset
+            currentCardIndex = 0;
+            flashcard.classList.remove('flipped');
+            
+            // Quiz reset
+            currentQuestionIndex = 0;
+            correctAnswers = 0;
+            incorrectAnswers = 0;
+            updateQuizStats();
+            
+            // Exam reset
+            examResults.innerHTML = '';
+            submitExamBtn.disabled = false;
+        }
+
+        // --- Event Listeners Setup ---
+
+        function setupEventListeners() {
+            // Mode selection
+            modeButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    switchMode(button.getAttribute('data-mode'));
+                });
+            });
+
+            // Data source selection (only for future scalability, currently just one file)
+            dataSourceSelector.addEventListener('change', (e) => {
+                const selectedFile = e.target.value;
+                localStorage.setItem('selectedDataSource', selectedFile);
+                initializeApp(selectedFile);
+            });
+            
+            // Flashcard events
+            flashcard.addEventListener('click', flipCard);
+            prevCardBtn.addEventListener('click', showPreviousCard);
+            nextCardBtn.addEventListener('click', showNextCard);
+            shuffleCardsBtn.addEventListener('click', shuffleFlashcardWords);
+            
+            // Quiz events
+            checkAnswerBtn.addEventListener('click', checkQuizAnswer);
+            nextQuestionBtn.addEventListener('click', generateQuizQuestion);
+            
+            // Exam events
+            submitExamBtn.addEventListener('click', submitExam);
+            newExamBtn.addEventListener('click', generateExam);
+        }
+
+        // Helper function to switch modes and initialize
+        function switchMode(newMode) {
+            currentMode = newMode;
+            modeButtons.forEach(btn => btn.classList.remove('active'));
+            document.querySelector(`[data-mode="${newMode}"]`).classList.add('active');
+
+            practiceSections.forEach(section => section.classList.remove('active'));
+            document.getElementById(`${newMode}-section`).classList.add('active');
+            
+            // Re-initialize the active mode if needed (e.g., reset quiz/exam status)
+            if (newMode === 'quiz') startNewQuiz();
+            if (newMode === 'exam') generateExam();
+            if (newMode === 'flashcard') showCard(currentCardIndex);
+        }
+
+        // --- Flashcard Functions ---
+
+        function flipCard() {
+            flashcard.classList.toggle('flipped');
+        }
+
+        function showCard(index) {
+            if (shuffledWords.length === 0) return;
+            
+            const word = shuffledWords[index];
+            flashcardWord.textContent = word.word;
+            flashcardSentence.textContent = `e.g., "${word.sentence}"`;
+            flashcardTranslation.textContent = word.persian;
+            flashcardPersianSentence.textContent = `مثال: «${word.persian_sentence_translate}»`;
+            cardCounter.textContent = `${index + 1} / ${shuffledWords.length}`;
+            
+            flashcard.classList.remove('flipped');
+        }
+
+        function showPreviousCard() {
+            if (shuffledWords.length === 0) return;
+            currentCardIndex = (currentCardIndex - 1 + shuffledWords.length) % shuffledWords.length;
+            showCard(currentCardIndex);
+        }
+
+        function showNextCard() {
+            if (shuffledWords.length === 0) return;
+            currentCardIndex = (currentCardIndex + 1) % shuffledWords.length;
+            showCard(currentCardIndex);
+        }
+
+        function shuffleArray(array) {
+            let newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+
+        function shuffleFlashcardWords() {
+            shuffledWords = shuffleArray(vocabulary);
+            currentCardIndex = 0;
+            showCard(currentCardIndex);
+        }
+
+        // --- Quiz Functions ---
+
+        function startNewQuiz() {
+            currentQuestionIndex = 0;
+            correctAnswers = 0;
+            incorrectAnswers = 0;
+            quizWords = shuffleArray(vocabulary).slice(0, QUIZ_LENGTH);
+            updateQuizStats();
+            generateQuizQuestion();
+        }
+
+        function generateQuizQuestion() {
+            if (currentQuestionIndex >= QUIZ_LENGTH || quizWords.length === 0) {
+                quizQuestion.textContent = "Quiz Complete!";
+                quizOptions.innerHTML = '';
+                checkAnswerBtn.style.display = 'none';
+                nextQuestionBtn.textContent = 'Restart Quiz';
+                nextQuestionBtn.onclick = startNewQuiz; // Change button function to restart
+                return;
+            }
+            
+            // Restore button in case it was changed
+            checkAnswerBtn.style.display = 'inline-block';
+            nextQuestionBtn.textContent = 'Next Question';
+            nextQuestionBtn.onclick = generateQuizQuestion;
+
+            quizFeedback.textContent = '';
+            quizOptions.innerHTML = '';
+            checkAnswerBtn.disabled = false;
+            nextQuestionBtn.disabled = true;
+            
+            const correctWord = quizWords[currentQuestionIndex];
+            quizQuestion.textContent = `What is the Persian translation of "${correctWord.word}"?`;
+            
+            const options = [correctWord.persian];
+            const incorrectVocab = vocabulary.filter(w => w.id !== correctWord.id);
+            
+            while (options.length < 4 && incorrectVocab.length > 0) {
+                const randomIndex = Math.floor(Math.random() * incorrectVocab.length);
+                const randomPersian = incorrectVocab[randomIndex].persian;
+                if (!options.includes(randomPersian)) {
+                    options.push(randomPersian);
+                }
+                incorrectVocab.splice(randomIndex, 1);
+            }
+            
+            const shuffledOptions = shuffleArray(options);
+            
+            shuffledOptions.forEach(option => {
+                const optionElement = document.createElement('div');
+                optionElement.className = 'option';
+                optionElement.textContent = option;
+                optionElement.addEventListener('click', () => selectOption(optionElement));
+                quizOptions.appendChild(optionElement);
+            });
+            
+            quizCounter.textContent = `${currentQuestionIndex + 1} / ${QUIZ_LENGTH}`;
+        }
+        
+        function selectOption(selectedOption) {
+            if (checkAnswerBtn.disabled) return; // Don't allow selection after checking
+            document.querySelectorAll('.option').forEach(option => option.classList.remove('selected'));
+            selectedOption.classList.add('selected');
+        }
+
+        function checkQuizAnswer() {
+            const selectedOption = document.querySelector('.option.selected');
+            if (!selectedOption) {
+                quizFeedback.textContent = 'Please select an answer!';
+                quizFeedback.style.color = '#ff6b6b';
+                return;
+            }
+            
+            const correctWord = quizWords[currentQuestionIndex];
+            checkAnswerBtn.disabled = true;
+            nextQuestionBtn.disabled = false;
+            
+            document.querySelectorAll('.option').forEach(option => {
+                if (option.textContent === correctWord.persian) {
+                    option.classList.add('correct');
+                } else if (option.classList.contains('selected')) {
+                    option.classList.add('incorrect');
+                }
+            });
+            
+            if (selectedOption.textContent === correctWord.persian) {
+                quizFeedback.textContent = 'Correct! Well done.';
+                quizFeedback.style.color = '#43e97b';
+                correctAnswers++;
+            } else {
+                quizFeedback.textContent = `Incorrect. The correct answer is: ${correctWord.persian}`;
+                quizFeedback.style.color = '#ff6b6b';
+                incorrectAnswers++;
+            }
+            
+            currentQuestionIndex++;
+            updateQuizStats();
+        }
+
+        function updateQuizStats() {
+            correctAnswersElem.textContent = correctAnswers;
+            incorrectAnswersElem.textContent = incorrectAnswers;
+            const total = correctAnswers + incorrectAnswers;
+            const score = total > 0 ? Math.round((correctAnswers / total) * 100) : 0;
+            quizScoreElem.textContent = `${score}%`;
+        }
+
+
+        // --- Exam Functions ---
+
+        function generateExam() {
+            examResults.innerHTML = '';
+            examWords = shuffleArray(vocabulary).slice(0, 10);
+            
+            examQuestionsContainer.innerHTML = '';
+            examWords.forEach((word, index) => {
+                const questionElement = document.createElement('div');
+                questionElement.className = 'exam-question';
+                questionElement.innerHTML = `
+                    <div class="exam-word">${index + 1}. What is the Persian translation of "${word.word}"?</div>
+                    <input type="text" class="answer-input" data-index="${index}" placeholder="Type your answer here...">
+                `;
+                examQuestionsContainer.appendChild(questionElement);
+            });
+            submitExamBtn.disabled = false;
+        }
+
+        function submitExam() {
+            userExamAnswers = [];
+            document.querySelectorAll('.answer-input').forEach(input => {
+                const index = parseInt(input.getAttribute('data-index'));
+                userExamAnswers[index] = input.value.trim();
+                input.disabled = true; // Disable inputs after submission
+            });
+            
+            let correctCount = 0;
+            examResults.innerHTML = '<h3>Exam Results:</h3>';
+            
+            examWords.forEach((word, index) => {
+                const userAnswer = userExamAnswers[index] || 'No answer';
+                // Note: We need a smarter way to check correctness for potential typos or multiple accepted translations
+                const isCorrect = userAnswer.toLowerCase() === word.persian.toLowerCase(); 
+                if (isCorrect) correctCount++;
+                
+                const resultItem = document.createElement('div');
+                resultItem.className = `result-item ${isCorrect ? 'result-correct' : 'result-incorrect'}`;
+                resultItem.innerHTML = `
+                    <span style="font-weight: bold;">${word.word}:</span> 
+                    <span>Your answer: ${userAnswer}</span>
+                    <span style="color: ${isCorrect ? 'inherit' : '#555'};"> (Correct: ${word.persian})</span>
+                `;
+                examResults.appendChild(resultItem);
+            });
+            
+            const scoreElement = document.createElement('div');
+            scoreElement.style.marginTop = '20px';
+            scoreElement.style.fontSize = '1.5rem';
+            scoreElement.style.fontWeight = 'bold';
+            scoreElement.textContent = `Score: ${correctCount} / ${examWords.length} (${Math.round((correctCount / examWords.length) * 100)}%)`;
+            examResults.appendChild(scoreElement);
+
+            submitExamBtn.disabled = true;
+        }
+
+        // --- App Entry Point ---
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // ابتدا احراز هویت را بررسی کنید
+            if (checkAuthenticationAndSubscription()) {
+                setupEventListeners();
+                const savedDataSource = localStorage.getItem('selectedDataSource') || 'data.json';
+                dataSourceSelector.value = savedDataSource;
+                // سپس برنامه را با داده‌های صحیح بارگذاری کنید
+                initializeApp(savedDataSource);
+            }
+        });
+    </script>
+</body>
+</html>

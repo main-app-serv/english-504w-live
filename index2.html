@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>داشبورد کاربری - سیستم آموزش زبان</title>
+    <style>
+        @font-face {
+            font-family: 'Vazirmatn';
+            /* مسیر فایل فونت در روت */
+            src: url('Vazirmatn-Medium.woff2') format('woff2'); 
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        :root {
+            --primary-color: #343541ff;
+            --secondary-color: #8ba8a8ff;
+            --accent-color: #ffd86b;
+            --text-color: #333;
+            --light-color: #f8f9fa;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        header {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            /* مسیر فایل پروفایل در روت */
+            border: 3px solid var(--primary-color);
+        }
+
+        .username {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .logout-btn {
+            padding: 8px 15px;
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .logout-btn:hover {
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .subscription-card {
+            text-align: center;
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+            color: white;
+        }
+
+        .subscription-card h2 {
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .remaining-days {
+            font-size: 60px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .days-label {
+            font-size: 20px;
+            opacity: 0.9;
+        }
+
+        .progress-bar {
+            height: 10px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 5px;
+            margin: 20px 0;
+            overflow: hidden;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: white;
+            border-radius: 5px;
+            transition: width 0.5s ease;
+        }
+
+        .subscription-info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+            font-size: 16px;
+        }
+        
+        .subscription-info div {
+            padding: 10px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .action-card {
+            text-align: center;
+            padding: 40px 25px;
+        }
+
+        .action-card h2 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(to right, #20bf55, #01baef); /* رنگ سبز و آبی برای دکمه اصلی */
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            text-decoration: none;
+            transition: var(--transition);
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(32, 191, 85, 0.5);
+        }
+
+        .motivational-message {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: var(--light-color);
+            border-radius: 10px;
+            font-style: italic;
+            color: var(--primary-color);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">پنل کاربری زبان</div>
+            <div class="user-info">
+                <img src="profile.png" alt="پروفایل کاربر" class="profile-image" id="profile-image">
+                <div class="username" id="username">کاربر</div>
+                <button class="logout-btn" onclick="logout()">خروج</button>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- کارت اطلاعات اشتراک -->
+            <div class="card subscription-card">
+                <h2>وضعیت اشتراک</h2>
+                <div class="remaining-days" id="remaining-days">0</div>
+                <div class="days-label">روز باقیمانده</div>
+                
+                <div class="progress-bar">
+                    <div class="progress" id="subscription-progress"></div>
+                </div>
+                
+                <div class="subscription-info">
+                    <div>شروع اشتراک: <span id="subscription-start">-</span></div>
+                    <div>پایان اشتراک: <span id="subscription-end">-</span></div>
+                </div>
+            </div>
+
+            <!-- کارت دسترسی به وب اپلیکیشن -->
+            <div class="card action-card">
+                <h2>دسترسی سریع</h2>
+                <a href="app1.html" id="app-link" class="btn">
+                    ورود به وب اپ 504 واژه ضروری انگلیسی
+                </a>
+            </div>
+        </div>
+
+        <div class="motivational-message" id="motivational-message">
+            <!-- این بخش با جاوا اسکریپت پر می‌شود -->
+        </div>
+    </div>
+
+    <script>
+        // پیام‌های انگیزشی جدید (زندگی و زبان)
+        const motivationalMessages = [
+            "زندگی مانند یادگیری زبان است؛ هرگز برای شروع دیر نیست.",
+            "فردا نتیجه تلاش امروز شماست؛ امروز را صرف یادگیری کنید!",
+            "بزرگ‌ترین مانع در زندگی، ترس از اشتباه کردن است. جسور باشید!",
+            "یادگیری زبان جدید، یک روح جدید در بدن شماست. از آن لذت ببرید.",
+            "سفر هزار مایلی با یک قدم آغاز می‌شود. تمرین روزانه را فراموش نکنید.",
+            "اگر می‌خواهید دنیا را تغییر دهید، از کلمات خود شروع کنید.",
+            "هر کلمه جدیدی که یاد می‌گیرید، دریچه جدیدی به فرهنگ دنیاست."
+        ];
+
+        // نمایش پیام انگیزشی تصادفی
+        function showRandomMessage() {
+            const messageElement = document.getElementById('motivational-message');
+            const randomIndex = Math.floor(Math.random() * motivationalMessages.length);
+            messageElement.textContent = motivationalMessages[randomIndex];
+        }
+        
+        // تابع کمکی برای فرمت دهی تاریخ
+        const dateFormatter = new Intl.DateTimeFormat('fa-IR', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+
+        // محاسبه روزهای باقیمانده از اشتراک
+        function calculateRemainingDays(endDate) {
+            const now = new Date();
+            const end = new Date(endDate);
+            // اطمینان از اینکه تاریخ پایان، پایان آن روز باشد (برای دقت بیشتر)
+            end.setHours(23, 59, 59, 999); 
+            
+            const timeDiff = end - now;
+            const daysRemaining = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+            
+            return daysRemaining > 0 ? daysRemaining : 0;
+        }
+
+        // محاسبه درصد پیشرفت اشتراک
+        function calculateSubscriptionProgress(startDate, endDate) {
+            const now = new Date();
+            const start = new Date(startDate);
+            const end = new Date(endDate);
+            
+            const totalDuration = end - start;
+            const elapsed = now - start;
+            
+            // اگر هنوز اشتراک شروع نشده یا تمام شده
+            if (totalDuration <= 0 || elapsed < 0) return 0;
+            
+            let progress = (elapsed / totalDuration) * 100;
+            
+            // مطمئن می‌شویم که درصد بین 0 تا 100 باشد
+            return Math.min(100, Math.max(0, progress));
+        }
+
+        // بارگذاری اطلاعات کاربر
+        function loadUserData() {
+            const userData = JSON.parse(localStorage.getItem('currentUser'));
+            
+            if (!userData) {
+                // اگر اطلاعات کاربر وجود ندارد، به صفحه لاگین برگرد
+                window.location.href = "index.html"; // مسیر اصلاح شده
+                return;
+            }
+            
+            // نمایش اطلاعات کاربر
+            document.getElementById('username').textContent = userData.username;
+            document.getElementById('profile-image').src = userData.profileImage || 'profile.png';
+            
+            // محاسبه و نمایش اطلاعات اشتراک
+            const endDate = userData.subscriptionEnd;
+            const startDate = userData.subscriptionstart; 
+            
+            const remainingDays = calculateRemainingDays(endDate);
+            const progress = calculateSubscriptionProgress(startDate, endDate);
+            
+            document.getElementById('remaining-days').textContent = remainingDays;
+            document.getElementById('subscription-progress').style.width = `${progress}%`;
+            
+            // نمایش تاریخ‌ها با فرمت فارسی
+            document.getElementById('subscription-start').textContent = dateFormatter.format(new Date(startDate));
+            document.getElementById('subscription-end').textContent = dateFormatter.format(new Date(endDate));
+
+            // اگر اشتراک منقضی شده، اقدامات لازم انجام شود
+            const appLink = document.getElementById('app-link');
+            if (remainingDays === 0) {
+                document.getElementById('remaining-days').textContent = 'منقضی شده';
+                document.querySelector('.subscription-card').style.background = 'linear-gradient(to right, #dc3545, #fd7e14)'; 
+                
+                appLink.style.pointerEvents = 'none'; // غیر فعال کردن دکمه دسترسی
+                appLink.style.opacity = '0.6';
+                appLink.textContent = 'اشتراک شما منقضی شده است (تمدید کنید)';
+            } else {
+                 // اطمینان از فعال بودن دکمه اگر اشتراک فعال است
+                appLink.style.pointerEvents = 'auto';
+                appLink.style.opacity = '1';
+                appLink.textContent = 'ورود به وب اپ 504 واژه ضروری انگلیسی';
+            }
+        }
+
+        // خروج از سیستم
+        function logout() {
+            localStorage.removeItem('currentUser');
+            window.location.href = "index.html"; // مسیر اصلاح شده
+        }
+
+        // بارگذاری اولیه
+        window.onload = function() {
+            loadUserData();
+            showRandomMessage();
+            
+            // به‌روزرسانی روزانه شمارنده
+            setInterval(loadUserData, 60 * 60 * 1000); // هر ساعت یکبار بروزرسانی
+            setInterval(showRandomMessage, 15000); // تغییر پیام انگیزشی هر 15 ثانیه
+        };
+    </script>
+</body>
+</html>
