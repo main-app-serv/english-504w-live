@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>English Vocabulary Practice</title>
     <style>
-        /* FONT DEFINITION ADDED HERE */
+        /* FONT DEFINITION */
         @font-face {
             font-family: 'Vazirmatn';
             src: url('Vazirmatn-Medium.woff2') format('woff2');
@@ -13,54 +13,217 @@
             font-style: normal;
         }
 
+        /* 
+         * THEME ENGINE using CSS Variables 
+         */
+        :root {
+            /* 1. PURPLE DARK (Default/Modern) */
+            --body-bg: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            --container-bg: rgba(20, 20, 35, 0.85);
+            --container-border: rgba(255, 255, 255, 0.1);
+            --header-bg: linear-gradient(90deg, rgba(102, 126, 234, 0.2), rgba(118, 75, 162, 0.2));
+            --text-primary: #e0e6ed;
+            --text-secondary: #94a3b8;
+            --accent-primary: #667eea;
+            --accent-hover: #5a6fd6;
+            --btn-bg: rgba(255, 255, 255, 0.05);
+            --btn-text: #e0e6ed;
+            --btn-active-bg: #667eea;
+            --card-front: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --card-back: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            --input-bg: #1e293b;
+            --input-border: #4a5568;
+            --news-bg: rgba(102, 126, 234, 0.15);
+            --news-text: #a5b4fc;
+            --success: #00b09b;
+            --error: #ff416c;
+            --backdrop-filter: blur(16px);
+            --shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+            --anim-speed: 15s;
+        }
+
+        /* 2. GRAY DARK THEME */
+        body.theme-gray {
+            --body-bg: #121212;
+            --container-bg: #1e1e1e;
+            --container-border: #333;
+            --header-bg: #252525;
+            --text-primary: #e0e0e0;
+            --text-secondary: #a0a0a0;
+            --accent-primary: #4a90e2; /* Steel Blue */
+            --accent-hover: #357abd;
+            --btn-bg: #2c2c2c;
+            --btn-text: #d0d0d0;
+            --btn-active-bg: #4a90e2;
+            --card-front: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            --card-back: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
+            --input-bg: #2c2c2c;
+            --input-border: #444;
+            --news-bg: #2c2c2c;
+            --news-text: #4a90e2;
+            --success: #27ae60;
+            --error: #c0392b;
+            --backdrop-filter: none;
+            --shadow: 0 10px 30px rgba(0,0,0,0.5);
+            --anim-speed: 0s; /* No animation for solid bg */
+        }
+
+        /* 3. ORIGINAL LIGHT THEME */
+        body.theme-light {
+            --body-bg: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            --container-bg: rgba(255, 255, 255, 0.95);
+            --container-border: white;
+            --header-bg: linear-gradient(90deg, #2575fc, #6a11cb);
+            --text-primary: #333333;
+            --text-secondary: #555555;
+            --accent-primary: #4a6ee0;
+            --accent-hover: #3a5ec9;
+            --btn-bg: #f1f3f6; /* Grayish for inactive buttons */
+            --btn-text: #333;
+            --btn-active-bg: #6a11cb;
+            --card-front: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --card-back: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            --input-bg: #ffffff;
+            --input-border: #ccc;
+            --news-bg: #f0f4ff;
+            --news-text: #2575fc;
+            --success: #43e97b;
+            --error: #ff6b6b;
+            --backdrop-filter: none;
+            --shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            --anim-speed: 0s;
+        }
+
+        /* --- GLOBAL STYLES --- */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            /* FONT APPLICATION MODIFIED HERE */
             font-family: 'Vazirmatn', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
         }
 
         body {
-            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
-            color: #333;
+            background: var(--body-bg);
+            background-size: 400% 400%;
+            /* Only animates if anim-speed > 0 */
+            animation: gradientBG var(--anim-speed) ease infinite; 
+            color: var(--text-primary);
             min-height: 100vh;
             padding: 20px;
+            transition: background 0.5s ease;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
         .container {
             max-width: 1000px;
             margin: 0 auto;
-            background-color: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background-color: var(--container-bg);
+            backdrop-filter: var(--backdrop-filter);
+            -webkit-backdrop-filter: var(--backdrop-filter);
+            border: 1px solid var(--container-border);
+            border-radius: 20px;
+            box-shadow: var(--shadow);
             overflow: hidden;
+            transition: all 0.3s ease;
         }
 
+        /* Header & Theme Switcher */
         header {
-            background: linear-gradient(90deg, #2575fc, #6a11cb);
-            color: white;
+            background: var(--header-bg);
+            color: var(--text-primary); /* For light theme, we override h1 manually if needed, but var works */
             padding: 20px;
             text-align: center;
+            border-bottom: 1px solid var(--container-border);
+            position: relative;
         }
+
+        /* Specific fix for Light Theme Text in Header (needs to be white) */
+        body.theme-light header {
+            color: white;
+        }
+        body.theme-light h1 {
+            background: none;
+            -webkit-text-fill-color: white;
+            text-shadow: none;
+        }
+        body.theme-light .subtitle {
+            color: rgba(255,255,255,0.9);
+        }
+
+        .theme-switcher {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 8px;
+            background: rgba(0,0,0,0.2);
+            padding: 5px;
+            border-radius: 20px;
+        }
+
+        .theme-btn {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.5);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .theme-btn:hover { transform: scale(1.2); }
+        
+        .t-purple { background: #6a11cb; }
+        .t-gray { background: #333; }
+        .t-light { background: #fff; }
 
         h1 {
             font-size: 2.2rem;
-            margin-bottom: 10px;
+            margin-bottom: 5px;
+            /* Gradient Text for Dark Themes */
+            background: linear-gradient(to right, #fff, #a5b4fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent; 
         }
 
         .subtitle {
             font-size: 1.1rem;
-            opacity: 0.9;
+            opacity: 0.8;
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+        }
+
+        /* NEWS TICKER / ANNOUNCEMENT BAR */
+        .news-ticker {
+            background-color: var(--news-bg);
+            color: var(--news-text);
+            padding: 8px 15px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            border-radius: 8px;
+            margin: 10px auto 0;
+            max-width: 80%;
+            border: 1px solid var(--container-border);
+        }
+        .news-icon {
+            font-size: 1.1rem;
         }
         
+        /* Toolbar */
         .toolbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #f1f3f6;
-            padding: 10px 15px;
-            border-bottom: 1px solid #e0e0e0;
+            background-color: rgba(0, 0, 0, 0.05);
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--container-border);
             flex-wrap: wrap;
         }
 
@@ -68,68 +231,95 @@
             display: flex;
             justify-content: center;
             flex-grow: 1;
+            gap: 10px;
         }
         
         .data-source-selector {
             padding: 5px;
+            display: flex;
+            align-items: center;
         }
         
         .data-source-selector label {
-            font-weight: 600;
+            font-weight: 500;
             margin-right: 10px;
             font-size: 0.9rem;
+            color: var(--text-secondary);
         }
         
         #data-source {
-            padding: 8px;
+            padding: 8px 12px;
             border-radius: 8px;
-            border: 1px solid #ccc;
-            background-color: white;
+            border: 1px solid var(--input-border);
+            background-color: var(--input-bg);
+            color: var(--text-primary);
             font-weight: 500;
+            outline: none;
+        }
+        /* Fix for light theme select input text color */
+        body.theme-light #data-source {
+            color: #333;
         }
 
         .mode-btn {
-            padding: 12px 25px;
-            margin: 0 10px;
+            padding: 10px 20px;
+            margin: 0;
             border: none;
-            background-color: #4a6ee0;
-            color: white;
-            border-radius: 30px;
+            background-color: var(--btn-bg);
+            color: var(--btn-text);
+            border-radius: 12px;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         .mode-btn:hover {
-            background-color: #3a5ec9;
             transform: translateY(-2px);
+            background-color: rgba(255,255,255,0.1);
+        }
+        /* Fix hover for light theme */
+        body.theme-light .mode-btn:hover {
+            background-color: #e0e0e0;
         }
 
         .mode-btn.active {
-            background-color: #6a11cb;
-            box-shadow: 0 4px 8px rgba(106, 17, 203, 0.4);
+            background: var(--btn-active-bg);
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
 
         .content-area {
-            padding: 30px;
-            min-height: 500px;
+            padding: 40px 30px;
+            min-height: 550px;
+            position: relative;
         }
 
+        /* Animations */
         .practice-section {
             display: none;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.4s ease, transform 0.4s ease;
         }
 
         .practice-section.active {
             display: block;
+            opacity: 1;
+            transform: translateY(0);
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         /* Flashcard Styles */
         .flashcard-container {
-            perspective: 1000px;
+            perspective: 1200px;
             width: 450px;
-            height: 280px;
-            margin: 0 auto 30px;
+            height: 300px;
+            margin: 0 auto 40px;
         }
 
         .flashcard {
@@ -137,10 +327,10 @@
             height: 100%;
             position: relative;
             transform-style: preserve-3d;
-            transition: transform 0.8s;
+            transition: transform 0.412s ease-in-out;
             cursor: pointer;
-            border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
         }
 
         .flashcard.flipped {
@@ -156,202 +346,246 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 20px;
-            border-radius: 15px;
+            padding: 30px;
+            border-radius: 20px;
             text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .flashcard-front {
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            background: var(--card-front);
             color: white;
         }
 
         .flashcard-back {
-            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+            background: var(--card-back);
             color: white;
             transform: rotateY(180deg);
         }
 
         .word {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             font-weight: 700;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.2);
         }
         
         .sentence-example {
-            font-size: 1rem;
+            font-size: 1.1rem;
             margin-top: 15px;
             opacity: 0.9;
             font-style: italic;
+            line-height: 1.5;
         }
 
         .translation {
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: 600;
+            margin-bottom: 10px;
         }
 
         .hint {
-            font-size: 0.9rem;
+            font-size: 0.85rem;
             margin-top: 15px;
-            opacity: 0.8;
+            opacity: 0.6;
             position: absolute;
             bottom: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
 
         .navigation {
             display: flex;
             justify-content: center;
-            gap: 15px;
-            margin-top: 20px;
+            gap: 20px;
+            margin-top: 30px;
         }
 
         .nav-btn {
-            padding: 10px 20px;
+            padding: 12px 25px;
             border: none;
-            background-color: #4a6ee0;
+            background: var(--accent-primary);
             color: white;
-            border-radius: 30px;
+            border-radius: 12px;
             cursor: pointer;
             transition: all 0.3s ease;
+            font-weight: 500;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         .nav-btn:hover {
-            background-color: #3a5ec9;
+            background: var(--accent-hover);
+            transform: translateY(-2px);
         }
 
         /* Quiz Styles */
         .quiz-container {
-            max-width: 600px;
+            max-width: 650px;
             margin: 0 auto;
         }
 
         .question {
             font-size: 1.8rem;
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 35px;
             font-weight: 600;
+            color: var(--text-primary);
         }
 
         .options {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 15px;
+            gap: 20px;
             margin-bottom: 30px;
         }
 
         .option {
-            padding: 15px;
-            background-color: #f1f3f6;
-            border: 2px solid #e0e0e0;
-            border-radius: 10px;
+            padding: 20px;
+            background-color: var(--btn-bg);
+            border: 1px solid var(--container-border);
+            border-radius: 15px;
             text-align: center;
             cursor: pointer;
             transition: all 0.2s ease;
             font-size: 1.1rem;
+            color: var(--text-primary);
         }
 
         .option:hover {
-            background-color: #e1e5eb;
-            border-color: #4a6ee0;
+            border-color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+        /* Light theme specific fix for options text */
+        body.theme-light .option {
+            background-color: #f1f3f6;
+            border-color: #e0e0e0;
         }
 
         .option.selected {
-            background-color: #4a6ee0;
+            background-color: var(--accent-primary);
             color: white;
-            border-color: #4a6ee0;
+            border-color: var(--accent-primary);
         }
 
         .option.correct {
-            background-color: #43e97b;
-            color: white;
-            border-color: #43e97b;
+            background-color: var(--success) !important;
+            color: white !important;
+            border-color: var(--success) !important;
         }
 
         .option.incorrect {
-            background-color: #ff6b6b;
-            color: white;
-            border-color: #ff6b6b;
+            background-color: var(--error) !important;
+            color: white !important;
+            border-color: var(--error) !important;
         }
 
         .feedback {
             text-align: center;
             font-size: 1.2rem;
-            margin: 20px 0;
+            margin: 25px 0;
             min-height: 30px;
             font-weight: 600;
         }
 
         /* Exam Styles */
         .exam-container {
-            max-width: 700px;
+            max-width: 750px;
             margin: 0 auto;
         }
 
         .exam-question {
             margin-bottom: 25px;
-            padding: 15px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.03); /* Slight tint */
+            border: 1px solid var(--container-border);
+            border-radius: 15px;
+        }
+        body.theme-light .exam-question {
             background-color: #f8f9fa;
-            border-radius: 10px;
-            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
         }
 
         .exam-word {
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 600;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            color: var(--text-primary);
         }
 
         .answer-input {
             width: 100%;
-            padding: 12px;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
+            padding: 15px;
+            background-color: var(--input-bg);
+            border: 2px solid var(--input-border);
+            color: var(--text-primary);
+            border-radius: 10px;
             font-size: 1rem;
-            transition: border-color 0.3s;
+            transition: all 0.3s;
+        }
+
+        body.theme-light .answer-input {
+            color: #333;
         }
 
         .answer-input:focus {
-            border-color: #4a6ee0;
+            border-color: var(--accent-primary);
             outline: none;
         }
 
         .exam-results {
-            margin-top: 30px;
+            margin-top: 40px;
             text-align: center;
+            animation: fadeIn 0.6s ease;
         }
 
         .result-item {
             display: flex;
             justify-content: space-between;
-            padding: 10px 15px;
-            margin-bottom: 10px;
-            border-radius: 8px;
+            align-items: center;
+            padding: 15px 20px;
+            margin-bottom: 12px;
+            border-radius: 10px;
+            background-color: var(--btn-bg);
+            border-left: 5px solid transparent;
+        }
+        
+        body.theme-light .result-item {
             background-color: #f8f9fa;
         }
 
         .result-correct {
+            border-left-color: var(--success);
+            background-color: rgba(0, 176, 155, 0.1);
+        }
+        body.theme-light .result-correct {
             background-color: #d4edda;
             color: #155724;
         }
 
         .result-incorrect {
+            border-left-color: var(--error);
+            background-color: rgba(255, 65, 108, 0.1);
+        }
+        body.theme-light .result-incorrect {
             background-color: #f8d7da;
             color: #721c24;
         }
 
         .progress {
-            margin-top: 20px;
+            margin-top: 25px;
             text-align: center;
             font-weight: 600;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
         }
 
         .stats {
             display: flex;
             justify-content: space-around;
-            margin-top: 20px;
-            padding: 15px;
-            background-color: #f1f3f6;
-            border-radius: 10px;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.05);
+            border-radius: 15px;
+            border: 1px solid var(--container-border);
         }
 
         .stat-item {
@@ -359,44 +593,47 @@
         }
 
         .stat-value {
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: 700;
-            color: #4a6ee0;
+            color: var(--accent-primary);
         }
 
         .stat-label {
-            font-size: 0.9rem;
-            color: #666;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            margin-top: 5px;
+            text-transform: uppercase;
         }
 
+        /* Responsive */
         @media (max-width: 768px) {
-            .container {
-                margin: 10px;
-            }
-            .toolbar {
-                flex-direction: column;
-                gap: 10px;
-            }
-            .flashcard-container {
-                width: 100%;
-                height: 250px;
-            }
-            .options {
-                grid-template-columns: 1fr;
-            }
-            .mode-btn {
-                padding: 10px 15px;
-                margin: 0 5px;
-                font-size: 0.9rem;
-            }
+            .container { margin: 0; border-radius: 0; min-height: 100vh; }
+            .toolbar { flex-direction: column; gap: 15px; }
+            .flashcard-container { width: 100%; height: 280px; }
+            .options { grid-template-columns: 1fr; }
+            .theme-switcher { top: 10px; right: 10px; }
+            .news-ticker { max-width: 95%; font-size: 0.8rem; }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
+            <!-- Theme Switcher Controls -->
+            <div class="theme-switcher">
+                <button class="theme-btn t-purple" onclick="setTheme('purple')" title="Purple Dark (Default)"></button>
+                <button class="theme-btn t-gray" onclick="setTheme('gray')" title="Gray Dark"></button>
+                <button class="theme-btn t-light" onclick="setTheme('light')" title="Original Light"></button>
+            </div>
+
             <h1>English Vocabulary Practice</h1>
             <p class="subtitle">Master common English words with interactive exercises</p>
+            
+            <!-- Dynamic Announcement Bar -->
+            <div id="announcement-bar" class="news-ticker" style="display: none;">
+                <span class="news-icon">🔔</span>
+                <span id="announcement-text"></span>
+            </div>
         </header>
         
         <div class="toolbar">
@@ -408,7 +645,6 @@
             <div class="data-source-selector">
                 <label for="data-source">Choose Words:</label>
                 <select id="data-source">
-                    <!-- مسیر اصلاح شده به data.json در روت -->
                     <option value="data.json">504 Common Words</option>
                 </select>
             </div>
@@ -488,7 +724,12 @@
     </div>
 
     <script>
-        // App state
+        // --- 1. BACKEND CONFIGURATION ---
+        // این متغیر را از بک‌اند تغییر دهید تا متن خبر عوض شود
+        const BACKEND_ANNOUNCEMENT = "تم دارک اضافه شد! بین تم ها گوشه بالا سمت راست سوییچ کنید";
+        // اگر خالی باشد، نوار نمایش داده نمی‌شود
+        
+        // --- 2. APP STATE & LOGIC ---
         let currentMode = 'flashcard';
         let vocabulary = [];
         let shuffledWords = [];
@@ -538,43 +779,65 @@
         const newExamBtn = document.getElementById('new-exam');
         const examResults = document.getElementById('exam-results');
         
-        // --- احراز هویت و بررسی اشتراک ---
+        // --- 3. AUTH & SUBSCRIPTION CHECK ---
         function checkAuthenticationAndSubscription() {
             const userData = JSON.parse(localStorage.getItem('currentUser'));
             
             if (!userData) {
-                // اگر کاربر لاگین نکرده، به صفحه ورود بفرست
                 window.location.href = "index.html"; 
                 return false;
             }
             
-            // تاریخ پایان را بررسی کن
             const endDate = new Date(userData.subscriptionEnd);
             const now = new Date();
-            // پایان روز را برای endDate در نظر می‌گیریم
             endDate.setHours(23, 59, 59, 999); 
             
             if (endDate < now) {
                 alert("اشتراک شما منقضی شده است. لطفا برای ادامه استفاده، اشتراک خود را تمدید کنید.");
-                window.location.href = "index2.html"; // برگشت به داشبورد
+                window.location.href = "index2.html"; 
                 return false;
             }
-            // اگر همه چیز اوکی است
             return true;
         }
 
-        // --- Data Loading and Initialization ---
+        // --- 4. THEME & ANNOUNCEMENT LOGIC ---
+        function initThemeAndAnnouncement() {
+            // Setup Announcement
+            const announcementBar = document.getElementById('announcement-bar');
+            const announcementText = document.getElementById('announcement-text');
+            
+            if (BACKEND_ANNOUNCEMENT && BACKEND_ANNOUNCEMENT.trim() !== "") {
+                announcementText.textContent = BACKEND_ANNOUNCEMENT;
+                announcementBar.style.display = 'flex';
+            }
+
+            // Setup Theme
+            const savedTheme = localStorage.getItem('appTheme') || 'purple';
+            setTheme(savedTheme);
+        }
+
+        function setTheme(themeName) {
+            document.body.classList.remove('theme-gray', 'theme-light');
+            if (themeName === 'gray') {
+                document.body.classList.add('theme-gray');
+            } else if (themeName === 'light') {
+                document.body.classList.add('theme-light');
+            }
+            // 'purple' is default, so no class needed (it uses :root variables directly)
+            
+            localStorage.setItem('appTheme', themeName);
+        }
+
+        // --- 5. DATA LOADING ---
 
         async function loadVocabulary(jsonFile) {
             try {
-                // مسیر فایل در ساختار یکپارچه: data.json
                 const response = await fetch(jsonFile); 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
                 const data = await response.json();
                 
-                // Adapt data structure to match original code (persian_translate -> persian)
                 vocabulary = data.word_details.map(item => ({
                     ...item,
                     persian: item.persian_translate
@@ -589,74 +852,57 @@
         }
 
         async function initializeApp(jsonFile) {
-            if (!checkAuthenticationAndSubscription()) return; // بررسی احراز هویت قبل از شروع
+            if (!checkAuthenticationAndSubscription()) return;
 
             const success = await loadVocabulary(jsonFile);
             if (!success) return;
 
-            // Reset all states
             resetAllModes();
-
-            // Initialize all modes with new data
-            // Flashcards
             shuffleFlashcardWords();
-            
-            // Quiz
             startNewQuiz();
-            
-            // Exam
             generateExam();
         }
 
         function resetAllModes() {
-            // Flashcard reset
             currentCardIndex = 0;
             flashcard.classList.remove('flipped');
             
-            // Quiz reset
             currentQuestionIndex = 0;
             correctAnswers = 0;
             incorrectAnswers = 0;
             updateQuizStats();
             
-            // Exam reset
             examResults.innerHTML = '';
             submitExamBtn.disabled = false;
         }
 
-        // --- Event Listeners Setup ---
+        // --- 6. EVENT LISTENERS ---
 
         function setupEventListeners() {
-            // Mode selection
             modeButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     switchMode(button.getAttribute('data-mode'));
                 });
             });
 
-            // Data source selection (only for future scalability, currently just one file)
             dataSourceSelector.addEventListener('change', (e) => {
                 const selectedFile = e.target.value;
                 localStorage.setItem('selectedDataSource', selectedFile);
                 initializeApp(selectedFile);
             });
             
-            // Flashcard events
             flashcard.addEventListener('click', flipCard);
             prevCardBtn.addEventListener('click', showPreviousCard);
             nextCardBtn.addEventListener('click', showNextCard);
             shuffleCardsBtn.addEventListener('click', shuffleFlashcardWords);
             
-            // Quiz events
             checkAnswerBtn.addEventListener('click', checkQuizAnswer);
             nextQuestionBtn.addEventListener('click', generateQuizQuestion);
             
-            // Exam events
             submitExamBtn.addEventListener('click', submitExam);
             newExamBtn.addEventListener('click', generateExam);
         }
 
-        // Helper function to switch modes and initialize
         function switchMode(newMode) {
             currentMode = newMode;
             modeButtons.forEach(btn => btn.classList.remove('active'));
@@ -665,13 +911,12 @@
             practiceSections.forEach(section => section.classList.remove('active'));
             document.getElementById(`${newMode}-section`).classList.add('active');
             
-            // Re-initialize the active mode if needed (e.g., reset quiz/exam status)
             if (newMode === 'quiz') startNewQuiz();
             if (newMode === 'exam') generateExam();
             if (newMode === 'flashcard') showCard(currentCardIndex);
         }
 
-        // --- Flashcard Functions ---
+        // --- 7. FUNCTIONALITIES (Flashcard, Quiz, Exam) ---
 
         function flipCard() {
             flashcard.classList.toggle('flipped');
@@ -679,14 +924,12 @@
 
         function showCard(index) {
             if (shuffledWords.length === 0) return;
-            
             const word = shuffledWords[index];
             flashcardWord.textContent = word.word;
             flashcardSentence.textContent = `e.g., "${word.sentence}"`;
             flashcardTranslation.textContent = word.persian;
             flashcardPersianSentence.textContent = `مثال: «${word.persian_sentence_translate}»`;
             cardCounter.textContent = `${index + 1} / ${shuffledWords.length}`;
-            
             flashcard.classList.remove('flipped');
         }
 
@@ -717,8 +960,6 @@
             showCard(currentCardIndex);
         }
 
-        // --- Quiz Functions ---
-
         function startNewQuiz() {
             currentQuestionIndex = 0;
             correctAnswers = 0;
@@ -734,11 +975,10 @@
                 quizOptions.innerHTML = '';
                 checkAnswerBtn.style.display = 'none';
                 nextQuestionBtn.textContent = 'Restart Quiz';
-                nextQuestionBtn.onclick = startNewQuiz; // Change button function to restart
+                nextQuestionBtn.onclick = startNewQuiz;
                 return;
             }
             
-            // Restore button in case it was changed
             checkAnswerBtn.style.display = 'inline-block';
             nextQuestionBtn.textContent = 'Next Question';
             nextQuestionBtn.onclick = generateQuizQuestion;
@@ -777,7 +1017,7 @@
         }
         
         function selectOption(selectedOption) {
-            if (checkAnswerBtn.disabled) return; // Don't allow selection after checking
+            if (checkAnswerBtn.disabled) return; 
             document.querySelectorAll('.option').forEach(option => option.classList.remove('selected'));
             selectedOption.classList.add('selected');
         }
@@ -786,7 +1026,7 @@
             const selectedOption = document.querySelector('.option.selected');
             if (!selectedOption) {
                 quizFeedback.textContent = 'Please select an answer!';
-                quizFeedback.style.color = '#ff6b6b';
+                quizFeedback.style.color = 'var(--error)';
                 return;
             }
             
@@ -804,11 +1044,11 @@
             
             if (selectedOption.textContent === correctWord.persian) {
                 quizFeedback.textContent = 'Correct! Well done.';
-                quizFeedback.style.color = '#43e97b';
+                quizFeedback.style.color = 'var(--success)';
                 correctAnswers++;
             } else {
                 quizFeedback.textContent = `Incorrect. The correct answer is: ${correctWord.persian}`;
-                quizFeedback.style.color = '#ff6b6b';
+                quizFeedback.style.color = 'var(--error)';
                 incorrectAnswers++;
             }
             
@@ -823,9 +1063,6 @@
             const score = total > 0 ? Math.round((correctAnswers / total) * 100) : 0;
             quizScoreElem.textContent = `${score}%`;
         }
-
-
-        // --- Exam Functions ---
 
         function generateExam() {
             examResults.innerHTML = '';
@@ -849,7 +1086,7 @@
             document.querySelectorAll('.answer-input').forEach(input => {
                 const index = parseInt(input.getAttribute('data-index'));
                 userExamAnswers[index] = input.value.trim();
-                input.disabled = true; // Disable inputs after submission
+                input.disabled = true; 
             });
             
             let correctCount = 0;
@@ -857,7 +1094,6 @@
             
             examWords.forEach((word, index) => {
                 const userAnswer = userExamAnswers[index] || 'No answer';
-                // Note: We need a smarter way to check correctness for potential typos or multiple accepted translations
                 const isCorrect = userAnswer.toLowerCase() === word.persian.toLowerCase(); 
                 if (isCorrect) correctCount++;
                 
@@ -866,7 +1102,7 @@
                 resultItem.innerHTML = `
                     <span style="font-weight: bold;">${word.word}:</span> 
                     <span>Your answer: ${userAnswer}</span>
-                    <span style="color: ${isCorrect ? 'inherit' : '#555'};"> (Correct: ${word.persian})</span>
+                    <span style="opacity: 0.8;"> (Correct: ${word.persian})</span>
                 `;
                 examResults.appendChild(resultItem);
             });
@@ -881,15 +1117,14 @@
             submitExamBtn.disabled = true;
         }
 
-        // --- App Entry Point ---
-
+        // --- 8. INITIALIZATION ---
         document.addEventListener('DOMContentLoaded', () => {
-            // ابتدا احراز هویت را بررسی کنید
+            initThemeAndAnnouncement(); // Initialize UI first
+            
             if (checkAuthenticationAndSubscription()) {
                 setupEventListeners();
                 const savedDataSource = localStorage.getItem('selectedDataSource') || 'data.json';
                 dataSourceSelector.value = savedDataSource;
-                // سپس برنامه را با داده‌های صحیح بارگذاری کنید
                 initializeApp(savedDataSource);
             }
         });
